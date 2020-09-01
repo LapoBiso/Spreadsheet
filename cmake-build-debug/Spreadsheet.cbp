@@ -572,6 +572,12 @@
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h">
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/Spreadsheet_autogen/mocs_compilation.cpp">
 			<Option target="Spreadsheet"/>
 		</Unit>

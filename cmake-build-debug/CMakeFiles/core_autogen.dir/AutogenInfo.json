@@ -11,6 +11,11 @@
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h",
 			"Mu",
 			"EWIEGA46WW/moc_Model.cpp"
+		],
+		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h",
+			"Mu",
+			"EWIEGA46WW/moc_Sum.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -67,7 +72,8 @@
 	"SETTINGS_FILE" : "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp", "Mu" ]
+		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp", "Mu" ],
+		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp", "Mu" ]
 	],
 	"VERBOSITY" : 0
 }

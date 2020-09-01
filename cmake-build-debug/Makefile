@@ -392,6 +392,33 @@ Spreadsheet_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/Spreadsheet.dir/build.make CMakeFiles/Spreadsheet.dir/Spreadsheet_autogen/mocs_compilation.cpp.s
 .PHONY : Spreadsheet_autogen/mocs_compilation.cpp.s
 
+Sum.o: Sum.cpp.o
+
+.PHONY : Sum.o
+
+# target to build an object file
+Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Sum.cpp.o
+.PHONY : Sum.cpp.o
+
+Sum.i: Sum.cpp.i
+
+.PHONY : Sum.i
+
+# target to preprocess a source file
+Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Sum.cpp.i
+.PHONY : Sum.cpp.i
+
+Sum.s: Sum.cpp.s
+
+.PHONY : Sum.s
+
+# target to generate assembly for a file
+Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Sum.cpp.s
+.PHONY : Sum.cpp.s
+
 core_autogen/mocs_compilation.o: core_autogen/mocs_compilation.cpp.o
 
 .PHONY : core_autogen/mocs_compilation.o
@@ -478,6 +505,9 @@ help:
 	@echo "... Spreadsheet_autogen/mocs_compilation.o"
 	@echo "... Spreadsheet_autogen/mocs_compilation.i"
 	@echo "... Spreadsheet_autogen/mocs_compilation.s"
+	@echo "... Sum.o"
+	@echo "... Sum.i"
+	@echo "... Sum.s"
 	@echo "... core_autogen/mocs_compilation.o"
 	@echo "... core_autogen/mocs_compilation.i"
 	@echo "... core_autogen/mocs_compilation.s"
