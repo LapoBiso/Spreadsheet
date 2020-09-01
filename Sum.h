@@ -13,7 +13,7 @@ class Sum: public QPushButton{
 public:
     explicit Sum(QWidget* parent=nullptr);
     ~Sum(){};
-    const QVariant &getSum() const;
+    const double getSum() const;
 private:
     std::map<int, double> values;
     QVariant sum;

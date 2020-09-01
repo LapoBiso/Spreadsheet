@@ -37,6 +37,6 @@ void Sum::redoneSum(bool f){
     emit updated(sum);
 }
 
-const QVariant &Sum::getSum() const {
+const double Sum::getSum() const {
     return sum.toDouble();
 }

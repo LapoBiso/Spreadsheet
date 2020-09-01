@@ -614,6 +614,9 @@
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/main.cpp">
 			<Option target="Spreadsheet"/>
 		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/FixtureWindow.cpp">
+			<Option target="RunAllTests"/>
+		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ModelTests.cpp">
 			<Option target="RunAllTests"/>
 		</Unit>
