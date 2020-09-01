@@ -17,7 +17,7 @@ void Sum::updating(const double &value, const QString &string, const int &row, c
     else
     {
         if(iter==values.end())
-            values.insert(std::pair<int,int>(row+column*10,value));
+            values.insert(std::pair<int,double>(row+column*10,value));
         else
             iter->second=value;
     }
@@ -25,7 +25,7 @@ void Sum::updating(const double &value, const QString &string, const int &row, c
         sum="";
     else
     {
-        sum=0;
+        sum=0.0;
         for(auto iterator:values)
         {
             sum=sum.toDouble()+iterator.second;

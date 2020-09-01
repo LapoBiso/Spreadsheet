@@ -10,7 +10,12 @@ Result::Result(QWidget *parent):QLineEdit(parent) {
 
 
 void Result::setNumber(QVariant &number){
-    QString string;
-    string=number.toString();
-    this->setText("RESULT: "+string);
+    if(number.toString()=="")
+        this->setText("Cells are empty ");
+    else
+    {
+        QString string;
+        string=QString::number(number.toDouble());
+        this->setText("RESULT: "+string);
+    }
 }

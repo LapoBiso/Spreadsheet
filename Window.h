@@ -18,9 +18,5 @@ private:
     QTableView* table;
     Sum* sumButton;
     Result* string;
-
-public slots:
-    void editTitle();
-
 };
 #endif //SPREADSHEET_WINDOW_H

@@ -47,3 +47,27 @@ Qt::ItemFlags Model::flags(const QModelIndex &index) const{
 void Model::cleanCell(const QModelIndex &index){
     cellContent[index.row()][index.column()]="";
 }
+
+QVariant Model::headerData(int section, Qt::Orientation orientation, int role) const{
+    if (role == Qt::DisplayRole && orientation==Qt::Horizontal)
+    {
+        char *letters=new char[10];
+        char letter='A';
+        for(int i=0;i<10;i++)
+        {
+            letters[i]=letter;
+            letter++;
+        }
+        return QString(letters[section]);
+    }
+    else if(role == Qt::DisplayRole && orientation==Qt::Vertical)
+    {
+        int *numbers=new int[10];
+        for(int i=0;i<10;i++)
+        {
+            numbers[i]=i+1;
+        }
+        return QString(QString::number(numbers[section]));
+    } else
+        return QVariant();
+}
