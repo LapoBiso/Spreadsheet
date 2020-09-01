@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/Spreadsheet_autogen/mocs_compilation.cpp
+
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/main.cpp
+iostream
+-
+
