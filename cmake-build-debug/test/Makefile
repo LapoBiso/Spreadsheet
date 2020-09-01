@@ -267,6 +267,33 @@ RunAllTests_autogen/mocs_compilation.cpp.s:
 	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/RunAllTests_autogen/mocs_compilation.cpp.s
 .PHONY : RunAllTests_autogen/mocs_compilation.cpp.s
 
+SumTests.o: SumTests.cpp.o
+
+.PHONY : SumTests.o
+
+# target to build an object file
+SumTests.cpp.o:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o
+.PHONY : SumTests.cpp.o
+
+SumTests.i: SumTests.cpp.i
+
+.PHONY : SumTests.i
+
+# target to preprocess a source file
+SumTests.cpp.i:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/SumTests.cpp.i
+.PHONY : SumTests.cpp.i
+
+SumTests.s: SumTests.cpp.s
+
+.PHONY : SumTests.s
+
+# target to generate assembly for a file
+SumTests.cpp.s:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/SumTests.cpp.s
+.PHONY : SumTests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -290,6 +317,9 @@ help:
 	@echo "... RunAllTests_autogen/mocs_compilation.o"
 	@echo "... RunAllTests_autogen/mocs_compilation.i"
 	@echo "... RunAllTests_autogen/mocs_compilation.s"
+	@echo "... SumTests.o"
+	@echo "... SumTests.i"
+	@echo "... SumTests.s"
 .PHONY : help
 
 

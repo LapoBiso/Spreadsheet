@@ -620,6 +620,9 @@
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/RunAllTests.cpp">
 			<Option target="RunAllTests"/>
 		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/SumTests.cpp">
+			<Option target="RunAllTests"/>
+		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>

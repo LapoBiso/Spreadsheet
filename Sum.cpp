@@ -36,3 +36,7 @@ void Sum::updating(const double &value, const QString &string, const int &row, c
 void Sum::redoneSum(bool f){
     emit updated(sum);
 }
+
+const QVariant &Sum::getSum() const {
+    return sum.toDouble();
+}

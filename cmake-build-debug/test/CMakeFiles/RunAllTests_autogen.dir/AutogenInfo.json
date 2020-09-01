@@ -66,6 +66,10 @@
 		[
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/RunAllTests.cpp",
 			"Mu"
+		],
+		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/SumTests.cpp",
+			"Mu"
 		]
 	],
 	"VERBOSITY" : 0
