@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/core_autogen.dir/ParseCache.txt"
   "core_autogen"
   "CMakeFiles/core.dir/Model.cpp.o"
+  "CMakeFiles/core.dir/Result.cpp.o"
   "CMakeFiles/core.dir/Sum.cpp.o"
   "CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o"
   "libcore.a"

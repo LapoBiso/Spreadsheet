@@ -13,6 +13,11 @@
 			"EWIEGA46WW/moc_Model.cpp"
 		],
 		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h",
+			"Mu",
+			"EWIEGA46WW/moc_Result.cpp"
+		],
+		[
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h",
 			"Mu",
 			"EWIEGA46WW/moc_Sum.cpp"
@@ -73,6 +78,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp", "Mu" ],
+		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp", "Mu" ]
 	],
 	"VERBOSITY" : 0

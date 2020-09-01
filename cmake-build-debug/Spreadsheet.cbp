@@ -572,6 +572,12 @@
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h">
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp">
 			<Option target="core"/>
 		</Unit>

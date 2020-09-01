@@ -365,6 +365,33 @@ Model.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Model.cpp.s
 .PHONY : Model.cpp.s
 
+Result.o: Result.cpp.o
+
+.PHONY : Result.o
+
+# target to build an object file
+Result.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Result.cpp.o
+.PHONY : Result.cpp.o
+
+Result.i: Result.cpp.i
+
+.PHONY : Result.i
+
+# target to preprocess a source file
+Result.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Result.cpp.i
+.PHONY : Result.cpp.i
+
+Result.s: Result.cpp.s
+
+.PHONY : Result.s
+
+# target to generate assembly for a file
+Result.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Result.cpp.s
+.PHONY : Result.cpp.s
+
 Spreadsheet_autogen/mocs_compilation.o: Spreadsheet_autogen/mocs_compilation.cpp.o
 
 .PHONY : Spreadsheet_autogen/mocs_compilation.o
@@ -502,6 +529,9 @@ help:
 	@echo "... Model.o"
 	@echo "... Model.i"
 	@echo "... Model.s"
+	@echo "... Result.o"
+	@echo "... Result.i"
+	@echo "... Result.s"
 	@echo "... Spreadsheet_autogen/mocs_compilation.o"
 	@echo "... Spreadsheet_autogen/mocs_compilation.i"
 	@echo "... Spreadsheet_autogen/mocs_compilation.s"
