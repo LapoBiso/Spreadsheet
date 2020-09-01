@@ -43,3 +43,7 @@ bool Model::setData(const QModelIndex &index, const QVariant &value, int role){
 Qt::ItemFlags Model::flags(const QModelIndex &index) const{
     return Qt::ItemIsEditable | QAbstractTableModel::flags(index);
 }
+
+void Model::cleanCell(const QModelIndex &index){
+    cellContent[index.row()][index.column()]="";
+}

@@ -446,6 +446,33 @@ Sum.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Sum.cpp.s
 .PHONY : Sum.cpp.s
 
+Window.o: Window.cpp.o
+
+.PHONY : Window.o
+
+# target to build an object file
+Window.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Window.cpp.o
+.PHONY : Window.cpp.o
+
+Window.i: Window.cpp.i
+
+.PHONY : Window.i
+
+# target to preprocess a source file
+Window.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Window.cpp.i
+.PHONY : Window.cpp.i
+
+Window.s: Window.cpp.s
+
+.PHONY : Window.s
+
+# target to generate assembly for a file
+Window.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Window.cpp.s
+.PHONY : Window.cpp.s
+
 core_autogen/mocs_compilation.o: core_autogen/mocs_compilation.cpp.o
 
 .PHONY : core_autogen/mocs_compilation.o
@@ -538,6 +565,9 @@ help:
 	@echo "... Sum.o"
 	@echo "... Sum.i"
 	@echo "... Sum.s"
+	@echo "... Window.o"
+	@echo "... Window.i"
+	@echo "... Window.s"
 	@echo "... core_autogen/mocs_compilation.o"
 	@echo "... core_autogen/mocs_compilation.i"
 	@echo "... core_autogen/mocs_compilation.s"

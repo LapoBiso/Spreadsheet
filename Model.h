@@ -8,6 +8,10 @@
 
 class Model: public QAbstractTableModel{
     Q_OBJECT
+private:
+    static const int rows {10};
+    static const int columns {10};
+
 public:
     explicit Model(QObject* parent= nullptr);
     ~Model(){};
@@ -16,11 +20,11 @@ public:
     QVariant data(const QModelIndex &index, int role) const override;
     bool setData(const QModelIndex &index, const QVariant &value, int role = Qt::EditRole) override;
     Qt::ItemFlags flags(const QModelIndex &index) const override;
-
-private:
-    static const int rows {10};
-    static const int columns {10};
     QVariant cellContent [rows][columns];
+
+public slots:
+    void cleanCell(const QModelIndex &index);
+
     signals:
     void valueInserted(const double & number,const QString &string, const int &row, const int &column);
 };

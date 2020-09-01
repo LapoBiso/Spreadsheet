@@ -8,6 +8,7 @@
 #include <QVariant>
 
 class Sum: public QPushButton{
+    Q_OBJECT
 public:
     explicit Sum(QWidget* parent=nullptr);
     ~Sum(){};

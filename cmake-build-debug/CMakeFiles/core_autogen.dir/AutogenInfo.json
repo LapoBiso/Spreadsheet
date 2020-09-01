@@ -21,6 +21,11 @@
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h",
 			"Mu",
 			"EWIEGA46WW/moc_Sum.cpp"
+		],
+		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.h",
+			"Mu",
+			"EWIEGA46WW/moc_Window.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -79,7 +84,8 @@
 	[
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp", "Mu" ],
-		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp", "Mu" ]
+		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp", "Mu" ],
+		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.cpp", "Mu" ]
 	],
 	"VERBOSITY" : 0
 }
