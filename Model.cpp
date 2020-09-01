@@ -26,7 +26,6 @@ bool Model::setData(const QModelIndex &index, const QVariant &value, int role){
         if(value.toString()=="")
         {
             cellContent[index.row()][index.column()].toString()= nullptr;
-            cellContent[index.row()][index.column()]= value;
             emit valueInserted(cellContent[index.row()][index.column()].toDouble(),value.toString(),index.row(),index.column());
             return true;
         }

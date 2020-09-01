@@ -3,8 +3,16 @@
 //
 #include "gtest/gtest.h"
 #include "../Model.h"
+#include <QModelIndex>
 
-class ModelTests: public::testing::Test{
-protected:
+TEST(Model, rowCount){
     Model model;
-};
+    QModelIndex index;
+    ASSERT_EQ(10,model.rowCount(index));
+}
+
+TEST(Model, columnCount){
+    Model model;
+    QModelIndex index;
+    ASSERT_EQ(10,model.columnCount(index));
+}
