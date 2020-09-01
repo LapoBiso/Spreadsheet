@@ -3,3 +3,4 @@
 //
 
 #include "Sum.h"
+Sum::Sum(QWidget* parent): QPushButton(parent){}

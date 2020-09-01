@@ -6,6 +6,7 @@
 #define SPREADSHEET_SUM_H
 #include <QPushButton>
 class Sum: public QPushButton{
-
+public:
+    explicit Sum(QWidget* parent=nullptr);
 };
 #endif //SPREADSHEET_SUM_H
