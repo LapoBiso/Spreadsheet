@@ -5,6 +5,8 @@
 #include "Max.h"
 Max::Max(ValuesManagement *manager,QWidget* parent):QPushButton(parent){
     this->manager=manager;
+    this->setText("MAX");
+    this->setGeometry(300,10,50,20);
 }
 
 void Max::redoneMax(bool f){

@@ -6,37 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.cpp
-Max.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp
+Result.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
 
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
-QPushButton
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
+QLineEdit
 -
-QVariant
--
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
-
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
-QObject
--
-QString
--
-map
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-qobject.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QString
-qstring.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
-qvariant.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -826,16 +802,6 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
-QtGui/qtguiglobal.h
--
-QtCore/qsize.h
--
-QtCore/qlist.h
--
-QtGui/qpixmap.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
@@ -916,6 +882,14 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
+QtGui/qtguiglobal.h
+-
+QtGui/qcolor.h
+-
+QtGui/qbrush.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
 QtGui/qtguiglobal.h
 -
@@ -970,6 +944,46 @@ QtCore/qprocessordetection.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
+QtGui/qtguiglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qshareddata.h
+-
+QtGui/qtextformat.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
+QtGui/qtguiglobal.h
+-
+QtGui/qcolor.h
+-
+QtGui/qfont.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qvector.h
+-
+QtCore/qvariant.h
+-
+QtGui/qpen.h
+-
+QtGui/qbrush.h
+-
+QtGui/qtextoption.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
+QtGui/qtguiglobal.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qchar.h
+-
+QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
@@ -1028,24 +1042,26 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
-qpushbutton.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
+qlineedit.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
--
-QtGui/qicon.h
--
-QtGui/qkeysequence.h
 -
 QtWidgets/qwidget.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
 QtWidgets/qtwidgetsglobal.h
 -
-QtWidgets/qabstractbutton.h
+QtWidgets/qframe.h
+-
+QtGui/qtextcursor.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h

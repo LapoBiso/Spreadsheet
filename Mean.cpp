@@ -5,6 +5,8 @@
 #include "Mean.h"
 Mean::Mean(ValuesManagement *manager,QWidget* parent):QPushButton(parent){
    this->manager=manager;
+    this->setText("MEAN");
+    this->setGeometry(200,10,50,20);
 }
 
 void Mean::redoneMean(bool f){

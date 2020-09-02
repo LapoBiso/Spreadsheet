@@ -14,17 +14,9 @@ Window::Window(QWidget *parent):QMainWindow(parent){
     auto* model=new Model(this);
     table->setModel(model);
     this->setWindowTitle("Spreadsheet");
-    sumButton->setText("SUM");
-    meanButton->setText("MEAN");
-    maxButton->setText("MAX");
-    minButton->setText("MIN");
     this->setFixedSize(1200,600);
-    sumButton->setGeometry(100,10,50,20);
-    meanButton->setGeometry(200,10,50,20);
-    maxButton->setGeometry(300,10,50,20);
-    minButton->setGeometry(400,10,50,20);
-    string->setGeometry(100,400,200,20);
     table->setGeometry(100,50,1025,326);
+
     QObject::connect(table,&QTableView::doubleClicked,model,&Model::cleanCell);
     QObject::connect(model,&Model::valueInserted,manager,&ValuesManagement::valuesUpdating);
     QObject::connect(sumButton,&Sum::clicked,sumButton,&Sum::redoneSum);

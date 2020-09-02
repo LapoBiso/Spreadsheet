@@ -8,9 +8,7 @@ void ValuesManagement::valuesUpdating(const double &value, const QString &string
     if(string=="")
     {
         if(iter!=values.end())
-        {
             values.erase(iter);
-        }
     }
     else
     {

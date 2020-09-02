@@ -6,6 +6,8 @@
 
 Min::Min(ValuesManagement *manager,QWidget* parent):QPushButton(parent){
     this->manager=manager;
+    this->setText("MIN");
+    this->setGeometry(400,10,50,20);
 }
 
 void Min::redoneMin(bool f){

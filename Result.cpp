@@ -6,6 +6,8 @@
 Result::Result(QWidget *parent):QLineEdit(parent) {
     this->setText("RESULT: ");
     this->setReadOnly(true);
+    this->setGeometry(100,400,200,20);
+
 }
 
 

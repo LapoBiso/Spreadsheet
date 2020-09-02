@@ -6,6 +6,8 @@
 #include <utility>
 Sum::Sum(ValuesManagement* manager,QWidget* parent):QPushButton(parent){
     this->manager= manager;
+    this->setText("SUM");
+    this->setGeometry(100,10,50,20);
 }
 
 void Sum::redoneSum(bool f){
