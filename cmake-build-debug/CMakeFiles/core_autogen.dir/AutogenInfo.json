@@ -8,6 +8,11 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h",
+			"Mu",
+			"EWIEGA46WW/moc_Max.cpp"
+		],
+		[
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h",
 			"Mu",
 			"EWIEGA46WW/moc_Mean.cpp"
@@ -92,6 +97,7 @@
 	"SETTINGS_FILE" : "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp", "Mu" ],

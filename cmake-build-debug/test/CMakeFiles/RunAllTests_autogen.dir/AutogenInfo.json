@@ -60,6 +60,14 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MaxTests.cpp",
+			"Mu"
+		],
+		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MeanTests.cpp",
+			"Mu"
+		],
+		[
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ModelTests.cpp",
 			"Mu"
 		],

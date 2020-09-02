@@ -3,8 +3,7 @@
 //
 #include "gtest/gtest.h"
 #include "../Sum.h"
-#include "../ValuesManagement.h"
-#include <QMainWindow>
+
 TEST(Sum,Updating){
     auto *manager=new ValuesManagement;
     Sum button(manager);

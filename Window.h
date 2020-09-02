@@ -11,6 +11,7 @@
 #include "Sum.h"
 #include "Result.h"
 #include "Mean.h"
+#include "Max.h"
 
 class Window: public QMainWindow{
     Q_OBJECT
@@ -21,6 +22,7 @@ private:
     QTableView* table;
     Sum* sumButton;
     Mean* meanButton;
+    Max* maxButton;
     Result* string;
 };
 #endif //SPREADSHEET_WINDOW_H

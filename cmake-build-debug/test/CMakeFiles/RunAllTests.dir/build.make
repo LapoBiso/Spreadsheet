@@ -109,12 +109,40 @@ test/CMakeFiles/RunAllTests.dir/SumTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RunAllTests.dir/SumTests.cpp.s"
 	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/SumTests.cpp -o CMakeFiles/RunAllTests.dir/SumTests.cpp.s
 
+test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.o: test/CMakeFiles/RunAllTests.dir/flags.make
+test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.o: ../test/MeanTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.o"
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RunAllTests.dir/MeanTests.cpp.o -c /home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MeanTests.cpp
+
+test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RunAllTests.dir/MeanTests.cpp.i"
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MeanTests.cpp > CMakeFiles/RunAllTests.dir/MeanTests.cpp.i
+
+test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RunAllTests.dir/MeanTests.cpp.s"
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MeanTests.cpp -o CMakeFiles/RunAllTests.dir/MeanTests.cpp.s
+
+test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.o: test/CMakeFiles/RunAllTests.dir/flags.make
+test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.o: ../test/MaxTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.o"
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RunAllTests.dir/MaxTests.cpp.o -c /home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MaxTests.cpp
+
+test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RunAllTests.dir/MaxTests.cpp.i"
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MaxTests.cpp > CMakeFiles/RunAllTests.dir/MaxTests.cpp.i
+
+test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RunAllTests.dir/MaxTests.cpp.s"
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MaxTests.cpp -o CMakeFiles/RunAllTests.dir/MaxTests.cpp.s
+
 # Object files for target RunAllTests
 RunAllTests_OBJECTS = \
 "CMakeFiles/RunAllTests.dir/RunAllTests_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/RunAllTests.dir/RunAllTests.cpp.o" \
 "CMakeFiles/RunAllTests.dir/ModelTests.cpp.o" \
-"CMakeFiles/RunAllTests.dir/SumTests.cpp.o"
+"CMakeFiles/RunAllTests.dir/SumTests.cpp.o" \
+"CMakeFiles/RunAllTests.dir/MeanTests.cpp.o" \
+"CMakeFiles/RunAllTests.dir/MaxTests.cpp.o"
 
 # External object files for target RunAllTests
 RunAllTests_EXTERNAL_OBJECTS =
@@ -123,6 +151,8 @@ test/RunAllTests: test/CMakeFiles/RunAllTests.dir/RunAllTests_autogen/mocs_compi
 test/RunAllTests: test/CMakeFiles/RunAllTests.dir/RunAllTests.cpp.o
 test/RunAllTests: test/CMakeFiles/RunAllTests.dir/ModelTests.cpp.o
 test/RunAllTests: test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o
+test/RunAllTests: test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.o
+test/RunAllTests: test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.o
 test/RunAllTests: test/CMakeFiles/RunAllTests.dir/build.make
 test/RunAllTests: lib/libgtestd.a
 test/RunAllTests: lib/libgtest_maind.a
@@ -132,7 +162,7 @@ test/RunAllTests: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 test/RunAllTests: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 test/RunAllTests: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 test/RunAllTests: test/CMakeFiles/RunAllTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable RunAllTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable RunAllTests"
 	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RunAllTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

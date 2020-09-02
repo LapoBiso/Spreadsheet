@@ -3,6 +3,7 @@
 
 CMakeFiles/Spreadsheet.dir/Spreadsheet_autogen/mocs_compilation.cpp.o: Spreadsheet_autogen/mocs_compilation.cpp
 
+CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Max.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Mean.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Model.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Result.h

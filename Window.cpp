@@ -8,15 +8,18 @@ Window::Window(QWidget *parent):QMainWindow(parent){
     auto* manager=new ValuesManagement;
     sumButton=new Sum(manager,this);
     meanButton= new Mean(manager,this);
+    maxButton= new Max(manager,this);
     string=new Result(this);
     auto* model=new Model(this);
     table->setModel(model);
     this->setWindowTitle("Spreadsheet");
     sumButton->setText("SUM");
     meanButton->setText("MEAN");
+    maxButton->setText("MAX");
     this->setFixedSize(1200,600);
     sumButton->setGeometry(100,10,50,20);
     meanButton->setGeometry(200,10,50,20);
+    maxButton->setGeometry(300,10,50,20);
     string->setGeometry(100,400,100,20);
     table->setGeometry(100,50,1025,326);
     for(int i=0;i<10;i++)
@@ -32,4 +35,6 @@ Window::Window(QWidget *parent):QMainWindow(parent){
     QObject::connect(sumButton,&Sum::updatedSum,string,&Result::setNumber);
     QObject::connect(meanButton,&Mean::clicked,meanButton,&Mean::redoneMean);
     QObject::connect(meanButton,&Mean::updatedMean,string,&Result::setNumber);
+    QObject::connect(maxButton,&Max::clicked,maxButton,&Max::redoneMax);
+    QObject::connect(maxButton,&Max::updatedMax,string,&Result::setNumber);
 }

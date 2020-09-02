@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/core_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/core_autogen.dir/ParseCache.txt"
   "core_autogen"
+  "CMakeFiles/core.dir/Max.cpp.o"
   "CMakeFiles/core.dir/Mean.cpp.o"
   "CMakeFiles/core.dir/Model.cpp.o"
   "CMakeFiles/core.dir/Result.cpp.o"

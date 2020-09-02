@@ -566,6 +566,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp">
 			<Option target="core"/>
 		</Unit>
@@ -625,6 +631,12 @@
 		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/main.cpp">
 			<Option target="Spreadsheet"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MaxTests.cpp">
+			<Option target="RunAllTests"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MeanTests.cpp">
+			<Option target="RunAllTests"/>
 		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ModelTests.cpp">
 			<Option target="RunAllTests"/>

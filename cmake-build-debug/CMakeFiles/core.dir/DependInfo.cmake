@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Max.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Mean.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Model.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Result.cpp.o"

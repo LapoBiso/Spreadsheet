@@ -338,6 +338,33 @@ gtest_autogen/fast:
 	$(MAKE) -f test/lib/googletest-master/googletest/CMakeFiles/gtest_autogen.dir/build.make test/lib/googletest-master/googletest/CMakeFiles/gtest_autogen.dir/build
 .PHONY : gtest_autogen/fast
 
+Max.o: Max.cpp.o
+
+.PHONY : Max.o
+
+# target to build an object file
+Max.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Max.cpp.o
+.PHONY : Max.cpp.o
+
+Max.i: Max.cpp.i
+
+.PHONY : Max.i
+
+# target to preprocess a source file
+Max.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Max.cpp.i
+.PHONY : Max.cpp.i
+
+Max.s: Max.cpp.s
+
+.PHONY : Max.s
+
+# target to generate assembly for a file
+Max.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Max.cpp.s
+.PHONY : Max.cpp.s
+
 Mean.o: Mean.cpp.o
 
 .PHONY : Mean.o
@@ -607,6 +634,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main_autogen"
 	@echo "... gtest_autogen"
+	@echo "... Max.o"
+	@echo "... Max.i"
+	@echo "... Max.s"
 	@echo "... Mean.o"
 	@echo "... Mean.i"
 	@echo "... Mean.s"

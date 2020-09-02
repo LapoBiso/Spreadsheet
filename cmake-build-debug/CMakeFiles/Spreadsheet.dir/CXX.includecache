@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
+QPushButton
+-
+QVariant
+-
+ValuesManagement.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
+
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
 QPushButton
 -
@@ -53,6 +61,8 @@ Result.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
 Mean.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
+Max.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/main.cpp
 iostream

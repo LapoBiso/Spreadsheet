@@ -13,6 +13,7 @@ public:
     explicit Mean(ValuesManagement *manager,QWidget* parent=nullptr);
     ~Mean(){};
     void redoneMean(bool f);
+    double getMean() const;
 private:
     ValuesManagement* manager;
     QVariant mean;

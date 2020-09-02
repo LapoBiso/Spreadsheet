@@ -21,3 +21,7 @@ void Mean::redoneMean(bool f){
     }
     emit updatedMean(mean);
 }
+
+double Mean::getMean() const{
+    return mean.toDouble();
+}

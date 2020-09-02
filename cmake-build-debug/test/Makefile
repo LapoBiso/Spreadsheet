@@ -186,6 +186,60 @@ RunAllTests_autogen/fast:
 	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests_autogen.dir/build.make test/CMakeFiles/RunAllTests_autogen.dir/build
 .PHONY : RunAllTests_autogen/fast
 
+MaxTests.o: MaxTests.cpp.o
+
+.PHONY : MaxTests.o
+
+# target to build an object file
+MaxTests.cpp.o:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.o
+.PHONY : MaxTests.cpp.o
+
+MaxTests.i: MaxTests.cpp.i
+
+.PHONY : MaxTests.i
+
+# target to preprocess a source file
+MaxTests.cpp.i:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.i
+.PHONY : MaxTests.cpp.i
+
+MaxTests.s: MaxTests.cpp.s
+
+.PHONY : MaxTests.s
+
+# target to generate assembly for a file
+MaxTests.cpp.s:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MaxTests.cpp.s
+.PHONY : MaxTests.cpp.s
+
+MeanTests.o: MeanTests.cpp.o
+
+.PHONY : MeanTests.o
+
+# target to build an object file
+MeanTests.cpp.o:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.o
+.PHONY : MeanTests.cpp.o
+
+MeanTests.i: MeanTests.cpp.i
+
+.PHONY : MeanTests.i
+
+# target to preprocess a source file
+MeanTests.cpp.i:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.i
+.PHONY : MeanTests.cpp.i
+
+MeanTests.s: MeanTests.cpp.s
+
+.PHONY : MeanTests.s
+
+# target to generate assembly for a file
+MeanTests.cpp.s:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.s
+.PHONY : MeanTests.cpp.s
+
 ModelTests.o: ModelTests.cpp.o
 
 .PHONY : ModelTests.o
@@ -308,6 +362,12 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... RunAllTests_autogen"
+	@echo "... MaxTests.o"
+	@echo "... MaxTests.i"
+	@echo "... MaxTests.s"
+	@echo "... MeanTests.o"
+	@echo "... MeanTests.i"
+	@echo "... MeanTests.s"
 	@echo "... ModelTests.o"
 	@echo "... ModelTests.i"
 	@echo "... ModelTests.s"
