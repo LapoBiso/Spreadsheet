@@ -4,12 +4,16 @@
 CMakeFiles/Spreadsheet.dir/Spreadsheet_autogen/mocs_compilation.cpp.o
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/Spreadsheet_autogen/mocs_compilation.cpp
 CMakeFiles/Spreadsheet.dir/main.cpp.o
- ../Result.h
- ../Sum.h
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/main.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h

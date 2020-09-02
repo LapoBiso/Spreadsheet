@@ -186,33 +186,6 @@ RunAllTests_autogen/fast:
 	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests_autogen.dir/build.make test/CMakeFiles/RunAllTests_autogen.dir/build
 .PHONY : RunAllTests_autogen/fast
 
-FixtureWindow.o: FixtureWindow.cpp.o
-
-.PHONY : FixtureWindow.o
-
-# target to build an object file
-FixtureWindow.cpp.o:
-	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/FixtureWindow.cpp.o
-.PHONY : FixtureWindow.cpp.o
-
-FixtureWindow.i: FixtureWindow.cpp.i
-
-.PHONY : FixtureWindow.i
-
-# target to preprocess a source file
-FixtureWindow.cpp.i:
-	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/FixtureWindow.cpp.i
-.PHONY : FixtureWindow.cpp.i
-
-FixtureWindow.s: FixtureWindow.cpp.s
-
-.PHONY : FixtureWindow.s
-
-# target to generate assembly for a file
-FixtureWindow.cpp.s:
-	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/FixtureWindow.cpp.s
-.PHONY : FixtureWindow.cpp.s
-
 ModelTests.o: ModelTests.cpp.o
 
 .PHONY : ModelTests.o
@@ -335,9 +308,6 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... RunAllTests_autogen"
-	@echo "... FixtureWindow.o"
-	@echo "... FixtureWindow.i"
-	@echo "... FixtureWindow.s"
 	@echo "... ModelTests.o"
 	@echo "... ModelTests.i"
 	@echo "... ModelTests.s"

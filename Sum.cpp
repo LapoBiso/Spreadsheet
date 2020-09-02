@@ -3,40 +3,25 @@
 //
 
 #include "Sum.h"
-Sum::Sum(QWidget* parent): QPushButton(parent){}
+#include <utility>
+Sum::Sum(ValuesManagement* manager,QWidget* parent):QPushButton(parent){
+    this->manager= manager;
+}
 
-void Sum::updating(const double &value, const QString &string, const int &row, const int &column) {
-    auto iter=values.find(row+column*10);
-    if(string=="")
-    {
-        if(iter!=values.end())
-        {
-            values.erase(iter);
-        }
-    }
-    else
-    {
-        if(iter==values.end())
-            values.insert(std::pair<int,double>(row+column*10,value));
-        else
-            iter->second=value;
-    }
-    if(values.empty())
+void Sum::redoneSum(bool f){
+    if(manager->values.empty())
         sum="";
     else
     {
         sum=0.0;
-        for(auto iterator:values)
+        for(auto iterator:manager->values)
         {
             sum=sum.toDouble()+iterator.second;
         }
     }
+    emit updatedSum(sum);
 }
 
-void Sum::redoneSum(bool f){
-    emit updated(sum);
-}
-
-const double Sum::getSum() const {
+double Sum::getSum() const {
     return sum.toDouble();
 }

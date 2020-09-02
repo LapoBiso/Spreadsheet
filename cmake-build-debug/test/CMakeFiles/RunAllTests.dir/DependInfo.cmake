@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/FixtureWindow.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/FixtureWindow.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ModelTests.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/ModelTests.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/RunAllTests.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/RunAllTests.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/RunAllTests_autogen/mocs_compilation.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/RunAllTests_autogen/mocs_compilation.cpp.o"

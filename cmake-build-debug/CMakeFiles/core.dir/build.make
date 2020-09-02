@@ -122,13 +122,41 @@ CMakeFiles/core.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Window.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.cpp -o CMakeFiles/core.dir/Window.cpp.s
 
+CMakeFiles/core.dir/Mean.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Mean.cpp.o: ../Mean.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core.dir/Mean.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/Mean.cpp.o -c /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp
+
+CMakeFiles/core.dir/Mean.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Mean.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp > CMakeFiles/core.dir/Mean.cpp.i
+
+CMakeFiles/core.dir/Mean.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Mean.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp -o CMakeFiles/core.dir/Mean.cpp.s
+
+CMakeFiles/core.dir/ValuesManagement.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/ValuesManagement.cpp.o: ../ValuesManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/core.dir/ValuesManagement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/ValuesManagement.cpp.o -c /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp
+
+CMakeFiles/core.dir/ValuesManagement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/ValuesManagement.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp > CMakeFiles/core.dir/ValuesManagement.cpp.i
+
+CMakeFiles/core.dir/ValuesManagement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/ValuesManagement.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp -o CMakeFiles/core.dir/ValuesManagement.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/core.dir/Model.cpp.o" \
 "CMakeFiles/core.dir/Sum.cpp.o" \
 "CMakeFiles/core.dir/Result.cpp.o" \
-"CMakeFiles/core.dir/Window.cpp.o"
+"CMakeFiles/core.dir/Window.cpp.o" \
+"CMakeFiles/core.dir/Mean.cpp.o" \
+"CMakeFiles/core.dir/ValuesManagement.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -138,9 +166,11 @@ libcore.a: CMakeFiles/core.dir/Model.cpp.o
 libcore.a: CMakeFiles/core.dir/Sum.cpp.o
 libcore.a: CMakeFiles/core.dir/Result.cpp.o
 libcore.a: CMakeFiles/core.dir/Window.cpp.o
+libcore.a: CMakeFiles/core.dir/Mean.cpp.o
+libcore.a: CMakeFiles/core.dir/ValuesManagement.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 

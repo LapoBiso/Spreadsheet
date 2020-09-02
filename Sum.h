@@ -6,21 +6,22 @@
 #define SPREADSHEET_SUM_H
 #include <QPushButton>
 #include <QVariant>
+#include "ValuesManagement.h"
 
 class Sum: public QPushButton{
     Q_OBJECT
 
 public:
-    explicit Sum(QWidget* parent=nullptr);
+    explicit Sum(ValuesManagement* manager,QWidget* parent=nullptr);
     ~Sum(){};
-    const double getSum() const;
+    double getSum() const;
 private:
-    std::map<int, double> values;
+    ValuesManagement* manager;
     QVariant sum;
+
 public slots:
-    void updating(const double &value, const QString &string, const int &row, const int &column);
     void redoneSum(bool f);
 signals:
-    void updated(QVariant &number);
+    void updatedSum(QVariant &number);
 };
 #endif //SPREADSHEET_SUM_H

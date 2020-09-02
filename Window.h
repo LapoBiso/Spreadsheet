@@ -6,9 +6,12 @@
 #define SPREADSHEET_WINDOW_H
 #include <QMainWindow>
 #include <QTableView>
-#include <Model.h>
-#include <Sum.h>
-#include <Result.h>
+#include "Model.h"
+#include "ValuesManagement.h"
+#include "Sum.h"
+#include "Result.h"
+#include "Mean.h"
+
 class Window: public QMainWindow{
     Q_OBJECT
 public:
@@ -17,6 +20,7 @@ public:
 private:
     QTableView* table;
     Sum* sumButton;
+    Mean* meanButton;
     Result* string;
 };
 #endif //SPREADSHEET_WINDOW_H

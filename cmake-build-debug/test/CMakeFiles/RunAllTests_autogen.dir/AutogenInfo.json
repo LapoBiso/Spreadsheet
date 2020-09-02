@@ -60,10 +60,6 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/FixtureWindow.cpp",
-			"Mu"
-		],
-		[
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ModelTests.cpp",
 			"Mu"
 		],

@@ -566,6 +566,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp">
 			<Option target="core"/>
 		</Unit>
@@ -582,6 +588,12 @@
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h">
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.cpp">
@@ -613,9 +625,6 @@
 		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/main.cpp">
 			<Option target="Spreadsheet"/>
-		</Unit>
-		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/FixtureWindow.cpp">
-			<Option target="RunAllTests"/>
 		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ModelTests.cpp">
 			<Option target="RunAllTests"/>

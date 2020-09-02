@@ -338,6 +338,33 @@ gtest_autogen/fast:
 	$(MAKE) -f test/lib/googletest-master/googletest/CMakeFiles/gtest_autogen.dir/build.make test/lib/googletest-master/googletest/CMakeFiles/gtest_autogen.dir/build
 .PHONY : gtest_autogen/fast
 
+Mean.o: Mean.cpp.o
+
+.PHONY : Mean.o
+
+# target to build an object file
+Mean.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Mean.cpp.o
+.PHONY : Mean.cpp.o
+
+Mean.i: Mean.cpp.i
+
+.PHONY : Mean.i
+
+# target to preprocess a source file
+Mean.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Mean.cpp.i
+.PHONY : Mean.cpp.i
+
+Mean.s: Mean.cpp.s
+
+.PHONY : Mean.s
+
+# target to generate assembly for a file
+Mean.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Mean.cpp.s
+.PHONY : Mean.cpp.s
+
 Model.o: Model.cpp.o
 
 .PHONY : Model.o
@@ -446,6 +473,33 @@ Sum.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Sum.cpp.s
 .PHONY : Sum.cpp.s
 
+ValuesManagement.o: ValuesManagement.cpp.o
+
+.PHONY : ValuesManagement.o
+
+# target to build an object file
+ValuesManagement.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ValuesManagement.cpp.o
+.PHONY : ValuesManagement.cpp.o
+
+ValuesManagement.i: ValuesManagement.cpp.i
+
+.PHONY : ValuesManagement.i
+
+# target to preprocess a source file
+ValuesManagement.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ValuesManagement.cpp.i
+.PHONY : ValuesManagement.cpp.i
+
+ValuesManagement.s: ValuesManagement.cpp.s
+
+.PHONY : ValuesManagement.s
+
+# target to generate assembly for a file
+ValuesManagement.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ValuesManagement.cpp.s
+.PHONY : ValuesManagement.cpp.s
+
 Window.o: Window.cpp.o
 
 .PHONY : Window.o
@@ -553,6 +607,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main_autogen"
 	@echo "... gtest_autogen"
+	@echo "... Mean.o"
+	@echo "... Mean.i"
+	@echo "... Mean.s"
 	@echo "... Model.o"
 	@echo "... Model.i"
 	@echo "... Model.s"
@@ -565,6 +622,9 @@ help:
 	@echo "... Sum.o"
 	@echo "... Sum.i"
 	@echo "... Sum.s"
+	@echo "... ValuesManagement.o"
+	@echo "... ValuesManagement.i"
+	@echo "... ValuesManagement.s"
 	@echo "... Window.o"
 	@echo "... Window.i"
 	@echo "... Window.s"
