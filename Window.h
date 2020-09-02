@@ -12,6 +12,7 @@
 #include "Result.h"
 #include "Mean.h"
 #include "Max.h"
+#include "Min.h"
 
 class Window: public QMainWindow{
     Q_OBJECT
@@ -23,6 +24,7 @@ private:
     Sum* sumButton;
     Mean* meanButton;
     Max* maxButton;
+    Min* minButton;
     Result* string;
 };
 #endif //SPREADSHEET_WINDOW_H

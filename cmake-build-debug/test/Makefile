@@ -240,6 +240,33 @@ MeanTests.cpp.s:
 	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.s
 .PHONY : MeanTests.cpp.s
 
+MinTests.o: MinTests.cpp.o
+
+.PHONY : MinTests.o
+
+# target to build an object file
+MinTests.cpp.o:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MinTests.cpp.o
+.PHONY : MinTests.cpp.o
+
+MinTests.i: MinTests.cpp.i
+
+.PHONY : MinTests.i
+
+# target to preprocess a source file
+MinTests.cpp.i:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MinTests.cpp.i
+.PHONY : MinTests.cpp.i
+
+MinTests.s: MinTests.cpp.s
+
+.PHONY : MinTests.s
+
+# target to generate assembly for a file
+MinTests.cpp.s:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/MinTests.cpp.s
+.PHONY : MinTests.cpp.s
+
 ModelTests.o: ModelTests.cpp.o
 
 .PHONY : ModelTests.o
@@ -368,6 +395,9 @@ help:
 	@echo "... MeanTests.o"
 	@echo "... MeanTests.i"
 	@echo "... MeanTests.s"
+	@echo "... MinTests.o"
+	@echo "... MinTests.i"
+	@echo "... MinTests.s"
 	@echo "... ModelTests.o"
 	@echo "... ModelTests.i"
 	@echo "... ModelTests.s"

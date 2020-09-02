@@ -22,6 +22,14 @@ QVariant
 ValuesManagement.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.h
+QPushButton
+-
+QVariant
+-
+ValuesManagement.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
+
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 QAbstractTableModel
 -
@@ -63,6 +71,8 @@ Mean.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
 Max.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
+Min.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/main.cpp
 iostream
@@ -71,8 +81,6 @@ QApplication
 -
 Window.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.h
-Model.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 qabstractitemmodel.h

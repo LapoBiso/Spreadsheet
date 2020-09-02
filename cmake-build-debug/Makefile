@@ -392,6 +392,33 @@ Mean.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Mean.cpp.s
 .PHONY : Mean.cpp.s
 
+Min.o: Min.cpp.o
+
+.PHONY : Min.o
+
+# target to build an object file
+Min.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Min.cpp.o
+.PHONY : Min.cpp.o
+
+Min.i: Min.cpp.i
+
+.PHONY : Min.i
+
+# target to preprocess a source file
+Min.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Min.cpp.i
+.PHONY : Min.cpp.i
+
+Min.s: Min.cpp.s
+
+.PHONY : Min.s
+
+# target to generate assembly for a file
+Min.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Min.cpp.s
+.PHONY : Min.cpp.s
+
 Model.o: Model.cpp.o
 
 .PHONY : Model.o
@@ -640,6 +667,9 @@ help:
 	@echo "... Mean.o"
 	@echo "... Mean.i"
 	@echo "... Mean.s"
+	@echo "... Min.o"
+	@echo "... Min.i"
+	@echo "... Min.s"
 	@echo "... Model.o"
 	@echo "... Model.i"
 	@echo "... Model.s"

@@ -5,6 +5,7 @@ CMakeFiles/Spreadsheet.dir/Spreadsheet_autogen/mocs_compilation.cpp.o: Spreadshe
 
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Max.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Mean.h
+CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Min.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Model.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Result.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Sum.h

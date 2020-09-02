@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "core_autogen"
   "CMakeFiles/core.dir/Max.cpp.o"
   "CMakeFiles/core.dir/Mean.cpp.o"
+  "CMakeFiles/core.dir/Min.cpp.o"
   "CMakeFiles/core.dir/Model.cpp.o"
   "CMakeFiles/core.dir/Result.cpp.o"
   "CMakeFiles/core.dir/Sum.cpp.o"

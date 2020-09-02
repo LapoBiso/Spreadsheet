@@ -578,6 +578,12 @@
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h">
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp">
 			<Option target="core"/>
 		</Unit>
@@ -636,6 +642,9 @@
 			<Option target="RunAllTests"/>
 		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MeanTests.cpp">
+			<Option target="RunAllTests"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MinTests.cpp">
 			<Option target="RunAllTests"/>
 		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ModelTests.cpp">

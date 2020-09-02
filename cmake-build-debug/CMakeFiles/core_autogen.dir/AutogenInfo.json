@@ -18,6 +18,11 @@
 			"EWIEGA46WW/moc_Mean.cpp"
 		],
 		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.h",
+			"Mu",
+			"EWIEGA46WW/moc_Min.cpp"
+		],
+		[
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h",
 			"Mu",
 			"EWIEGA46WW/moc_Model.cpp"
@@ -99,6 +104,7 @@
 	[
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp", "Mu" ],
+		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp", "Mu" ],
