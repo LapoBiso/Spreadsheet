@@ -13,7 +13,7 @@ void Min::redoneMin(bool f){
         min="";
     else
     {
-        min=manager->values[0];
+        min=manager->values.begin()->second;
         for(auto iterator:manager->values)
         {
             if(iterator.second<min.toDouble())

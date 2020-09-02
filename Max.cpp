@@ -12,7 +12,7 @@ void Max::redoneMax(bool f){
         max="";
     else
     {
-        max=manager->values[0];
+        max=manager->values.begin()->second;
         for(auto iterator:manager->values)
         {
             if(iterator.second>max.toDouble())
