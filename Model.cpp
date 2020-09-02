@@ -16,7 +16,13 @@ int Model::columnCount(const QModelIndex &parent) const{
 
 QVariant Model::data(const QModelIndex &index, int role) const{
     if(role==Qt::DisplayRole && checkIndex(index))
-        return cellContent[index.row()][index.column()];
+    {
+        auto itr=strings.find(index.row()+index.column()*columns);
+        if(itr!=strings.end())
+            return itr->second.toDouble();
+        else
+            return QVariant("");
+    }
     return QVariant();
 }
 
@@ -25,15 +31,23 @@ bool Model::setData(const QModelIndex &index, const QVariant &value, int role){
     {
         if(value.toString()=="")
         {
-            cellContent[index.row()][index.column()].toString()= nullptr;
-            emit valueInserted(cellContent[index.row()][index.column()].toDouble(),value.toString(),index.row(),index.column());
+            auto itr=strings.find(index.row()+index.column()*columns);
+            if(itr!=strings.end())
+                strings.erase(itr);
+            cellContent[index.row()+index.column()*columns].toString()= nullptr;
+            emit valueInserted(cellContent[index.row()+index.column()*columns].toDouble(),value.toString(),index.row(),index.column());
             return true;
         }
 
         else
         {
-            cellContent[index.row()][index.column()]=value;
-            emit valueInserted(cellContent[index.row()][index.column()].toDouble(),value.toString(),index.row(),index.column());
+            auto itr=strings.find(index.row()+index.column()*columns);
+            if(itr!=strings.end())
+                itr->second=value.toDouble();
+            else
+                strings.insert(std::pair<int,QVariant>(index.row()+index.column()*columns,value.toDouble()));
+            cellContent[index.row()+index.column()*columns]=value;
+            emit valueInserted(cellContent[index.row()+index.column()*columns].toDouble(),value.toString(),index.row(),index.column());
             return true;
         }
     }
@@ -45,7 +59,9 @@ Qt::ItemFlags Model::flags(const QModelIndex &index) const{
 }
 
 void Model::cleanCell(const QModelIndex &index){
-    cellContent[index.row()][index.column()]="";
+    auto itr=strings.find(index.row()+index.column()*columns);
+    if(itr!=strings.end())
+        strings.erase(itr);
 }
 
 QVariant Model::headerData(int section, Qt::Orientation orientation, int role) const{

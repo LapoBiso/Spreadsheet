@@ -25,13 +25,6 @@ Window::Window(QWidget *parent):QMainWindow(parent){
     minButton->setGeometry(400,10,50,20);
     string->setGeometry(100,400,200,20);
     table->setGeometry(100,50,1025,326);
-    for(int i=0;i<10;i++)
-    {
-        for(int j=0; j<10; j++)
-        {
-            model->cellContent[i][j]=" ";
-        }
-    }
     QObject::connect(table,&QTableView::doubleClicked,model,&Model::cleanCell);
     QObject::connect(model,&Model::valueInserted,manager,&ValuesManagement::valuesUpdating);
     QObject::connect(sumButton,&Sum::clicked,sumButton,&Sum::redoneSum);

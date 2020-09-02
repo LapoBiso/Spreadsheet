@@ -33,6 +33,8 @@ ValuesManagement.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 QAbstractTableModel
 -
+memory
+-
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
 QLineEdit

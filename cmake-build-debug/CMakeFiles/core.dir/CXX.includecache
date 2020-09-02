@@ -13,6 +13,8 @@ Model.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 QAbstractTableModel
 -
+memory
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 qabstractitemmodel.h

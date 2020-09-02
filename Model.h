@@ -5,7 +5,7 @@
 #ifndef SPREADSHEET_MODEL_H
 #define SPREADSHEET_MODEL_H
 #include <QAbstractTableModel>
-
+#include <memory>
 class Model: public QAbstractTableModel{
     Q_OBJECT
 private:
@@ -20,7 +20,8 @@ public:
     QVariant data(const QModelIndex &index, int role) const override;
     bool setData(const QModelIndex &index, const QVariant &value, int role = Qt::EditRole) override;
     Qt::ItemFlags flags(const QModelIndex &index) const override;
-    QVariant cellContent [rows][columns];
+    std::map <int,QVariant> strings;
+    QVariant cellContent [rows+columns];
     QVariant headerData(int section, Qt::Orientation orientation, int role) const override;
 public slots:
     void cleanCell(const QModelIndex &index);
