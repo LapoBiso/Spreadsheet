@@ -22,7 +22,7 @@ public:
     Qt::ItemFlags flags(const QModelIndex &index) const override;
     QVariant headerData(int section, Qt::Orientation orientation, int role) const override;
     std::map <int,QVariant> strings;
-    QVariant cellContent [rows+columns];
+    QVariant cellContent [rows*columns];
 
 public slots:
     void cleanCell(const QModelIndex &index);

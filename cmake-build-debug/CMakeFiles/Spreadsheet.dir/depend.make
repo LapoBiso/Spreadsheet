@@ -93,6 +93,8 @@ CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
+CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QPalette
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h

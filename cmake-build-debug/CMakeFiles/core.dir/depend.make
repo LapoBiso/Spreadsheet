@@ -360,6 +360,7 @@ CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfi
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
@@ -369,10 +370,12 @@ CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
@@ -384,6 +387,7 @@ CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjec
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
@@ -391,6 +395,7 @@ CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
@@ -407,6 +412,24 @@ CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvaria
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
+CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 
 CMakeFiles/core.dir/Result.cpp.o: ../Result.cpp
 CMakeFiles/core.dir/Result.cpp.o: ../Result.h
@@ -775,6 +798,8 @@ CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvari
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
+CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QPalette
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -929,6 +954,8 @@ CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-lin
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QPalette
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h

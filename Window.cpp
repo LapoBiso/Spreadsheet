@@ -16,7 +16,6 @@ Window::Window(QWidget *parent):QMainWindow(parent){
     this->setWindowTitle("Spreadsheet");
     this->setFixedSize(1200,600);
     table->setGeometry(100,50,1025,326);
-
     QObject::connect(table,&QTableView::doubleClicked,model,&Model::cleanCell);
     QObject::connect(model,&Model::valueInserted,manager,&ValuesManagement::valuesUpdating);
     QObject::connect(sumButton,&Sum::clicked,sumButton,&Sum::redoneSum);

@@ -35,6 +35,8 @@ QAbstractTableModel
 -
 memory
 -
+QBrush
+-
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
 QLineEdit
@@ -60,6 +62,8 @@ map
 QMainWindow
 -
 QTableView
+-
+QPalette
 -
 Model.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
@@ -837,6 +841,14 @@ QtCore/qpoint.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
+qbrush.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QPalette
+qpalette.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 QtGui/qtguiglobal.h
