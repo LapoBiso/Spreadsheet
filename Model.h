@@ -6,6 +6,7 @@
 #define SPREADSHEET_MODEL_H
 #include <QAbstractTableModel>
 #include <memory>
+#include <QBrush>
 class Model: public QAbstractTableModel{
     Q_OBJECT
 private:

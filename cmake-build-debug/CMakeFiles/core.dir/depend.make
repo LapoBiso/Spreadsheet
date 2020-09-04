@@ -799,7 +799,6 @@ CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarl
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
-CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QPalette
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -955,7 +954,6 @@ CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-lin
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
-CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QPalette
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h

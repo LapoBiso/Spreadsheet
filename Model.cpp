@@ -15,14 +15,22 @@ int Model::columnCount(const QModelIndex &parent) const{
 }
 
 QVariant Model::data(const QModelIndex &index, int role) const{
+    auto itr=strings.find(index.row()+index.column()*columns);
     if(role==Qt::DisplayRole && checkIndex(index))
     {
-        auto itr=strings.find(index.row()+index.column()*columns);
         if(itr!=strings.end())
             return itr->second.toDouble();
         else
             return QVariant("");
     }
+    if(role==Qt::BackgroundRole && checkIndex(index))
+    {
+        if(itr!=strings.end())
+            return QBrush(Qt::darkGray);
+        else
+            return QBrush(Qt::transparent);
+    }
+
     return QVariant();
 }
 
