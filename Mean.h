@@ -12,8 +12,9 @@ class Mean: public QPushButton{
 public:
     explicit Mean(ValuesManagement *manager,QWidget* parent=nullptr);
     ~Mean(){};
-    void redoneMean(bool f);
     double getMean() const;
+public slots:
+    void redoneMean(bool f);
 private:
     ValuesManagement* manager;
     QVariant mean;

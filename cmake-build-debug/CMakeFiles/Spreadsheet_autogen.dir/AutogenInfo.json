@@ -5,6 +5,8 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lapo/Scrivania/ProgettiClion/Spreadsheet",
 	"CMAKE_EXECUTABLE" : "/home/lapo/Scrivania/clion-2020.1.2/bin/cmake/linux/bin/cmake",
 	"CMAKE_SOURCE_DIR" : "/home/lapo/Scrivania/ProgettiClion/Spreadsheet",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/Spreadsheet_autogen/include",
@@ -34,7 +36,7 @@
 		"/usr/include/x86_64-linux-gnu",
 		"/usr/include"
 	],
-	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : true,
 	"MOC_PREDEFS_CMD" : 
@@ -43,7 +45,7 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/home/lapo/Scrivania/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+		"/home/lapo/Scrivania/clion-2020.1.2/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
 	],
 	"MOC_PREDEFS_FILE" : "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/Spreadsheet_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
@@ -54,6 +56,7 @@
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
 	"SETTINGS_FILE" : "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/Spreadsheet_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[

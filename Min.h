@@ -12,8 +12,9 @@ Q_OBJECT
 public:
     explicit Min(ValuesManagement *manager,QWidget* parent=nullptr);
     ~Min(){};
-    void redoneMin(bool f);
     double getMin() const;
+public slots:
+    void redoneMin(bool f);
 private:
     ValuesManagement* manager;
     QVariant min;

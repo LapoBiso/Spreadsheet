@@ -12,8 +12,9 @@ class Max: public QPushButton{
 public:
     explicit Max(ValuesManagement *manager,QWidget* parent=nullptr);
     ~Max(){};
-    void redoneMax(bool f);
     double getMax() const;
+public slots:
+    void redoneMax(bool f);
 private:
     ValuesManagement* manager;
     QVariant max;
