@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/RunAllTests.dir/MeanTests.cpp.o"
   "CMakeFiles/RunAllTests.dir/MinTests.cpp.o"
   "CMakeFiles/RunAllTests.dir/ModelTests.cpp.o"
+  "CMakeFiles/RunAllTests.dir/ResultTests.cpp.o"
   "CMakeFiles/RunAllTests.dir/RunAllTests.cpp.o"
   "CMakeFiles/RunAllTests.dir/RunAllTests_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/RunAllTests.dir/SumTests.cpp.o"

@@ -7,13 +7,12 @@ Result::Result(QWidget *parent):QLineEdit(parent) {
     this->setText("RESULT: ");
     this->setReadOnly(true);
     this->setGeometry(100,400,200,20);
-
 }
 
 
 void Result::setNumber(QVariant &number){
     if(number.toString()=="")
-        this->setText("Cells are empty ");
+        this->setText("Cells are empty");
     else
     {
         QString string;

@@ -314,6 +314,33 @@ ModelTests.cpp.s:
 	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/ModelTests.cpp.s
 .PHONY : ModelTests.cpp.s
 
+ResultTests.o: ResultTests.cpp.o
+
+.PHONY : ResultTests.o
+
+# target to build an object file
+ResultTests.cpp.o:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/ResultTests.cpp.o
+.PHONY : ResultTests.cpp.o
+
+ResultTests.i: ResultTests.cpp.i
+
+.PHONY : ResultTests.i
+
+# target to preprocess a source file
+ResultTests.cpp.i:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/ResultTests.cpp.i
+.PHONY : ResultTests.cpp.i
+
+ResultTests.s: ResultTests.cpp.s
+
+.PHONY : ResultTests.s
+
+# target to generate assembly for a file
+ResultTests.cpp.s:
+	cd /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/RunAllTests.dir/build.make test/CMakeFiles/RunAllTests.dir/ResultTests.cpp.s
+.PHONY : ResultTests.cpp.s
+
 RunAllTests.o: RunAllTests.cpp.o
 
 .PHONY : RunAllTests.o
@@ -421,6 +448,9 @@ help:
 	@echo "... ModelTests.o"
 	@echo "... ModelTests.i"
 	@echo "... ModelTests.s"
+	@echo "... ResultTests.o"
+	@echo "... ResultTests.i"
+	@echo "... ResultTests.s"
 	@echo "... RunAllTests.o"
 	@echo "... RunAllTests.i"
 	@echo "... RunAllTests.s"

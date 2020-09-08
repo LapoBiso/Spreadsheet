@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MeanTests.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/MeanTests.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/MinTests.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/MinTests.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ModelTests.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/ModelTests.cpp.o"
+  "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/ResultTests.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/ResultTests.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/RunAllTests.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/RunAllTests.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/RunAllTests_autogen/mocs_compilation.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/RunAllTests_autogen/mocs_compilation.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/test/SumTests.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o"
