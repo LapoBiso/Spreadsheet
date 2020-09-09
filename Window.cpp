@@ -18,12 +18,13 @@ Window::Window(QWidget *parent):QMainWindow(parent){
     table->setGeometry(100,50,1025,326);
     QObject::connect(table.get(),&QTableView::doubleClicked,model,&Model::cleanCell);
     QObject::connect(model,&Model::valueInserted,manager,&ValuesManagement::valuesUpdating);
-    QObject::connect(sumButton.get(),&Sum::clicked,sumButton.get(),&Sum::redoneSum);
-    QObject::connect(sumButton.get(),&Sum::updatedSum,string.get(),&Result::setNumber);
-    QObject::connect(meanButton.get(),&Mean::clicked,meanButton.get(),&Mean::redoneMean);
-    QObject::connect(meanButton.get(),&Mean::updatedMean,string.get(),&Result::setNumber);
-    QObject::connect(maxButton.get(),&Max::clicked,maxButton.get(),&Max::redoneMax);
-    QObject::connect(maxButton.get(),&Max::updatedMax,string.get(),&Result::setNumber);
-    QObject::connect(minButton.get(),&Min::clicked,minButton.get(),&Min::redoneMin);
-    QObject::connect(minButton.get(),&Min::updatedMin,string.get(),&Result::setNumber);
+    QObject::connect(sumButton.get(),&OperationButton::clicked,sumButton.get(),&OperationButton::operation);
+    QObject::connect(sumButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
+    QObject::connect(meanButton.get(),&OperationButton::clicked,meanButton.get(),&OperationButton::operation);
+    QObject::connect(meanButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
+    QObject::connect(maxButton.get(),&OperationButton::clicked,maxButton.get(),&OperationButton::operation);
+    QObject::connect(maxButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
+    QObject::connect(minButton.get(),&OperationButton::clicked,minButton.get(),&OperationButton::operation);
+    QObject::connect(minButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
 }
+

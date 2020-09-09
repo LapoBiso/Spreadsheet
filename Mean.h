@@ -4,21 +4,17 @@
 
 #ifndef SPREADSHEET_MEAN_H
 #define SPREADSHEET_MEAN_H
-#include <QPushButton>
+#include "OperationButton.h"
 #include <QVariant>
 #include "ValuesManagement.h"
-class Mean: public QPushButton{
+class Mean: public OperationButton{
     Q_OBJECT
 public:
     explicit Mean(ValuesManagement *manager,QWidget* parent=nullptr);
     ~Mean(){};
-    double getMean() const;
 public slots:
-    void redoneMean(bool f);
+    void operation(bool f) override;
 private:
     ValuesManagement* manager;
-    QVariant mean;
-    signals:
-    void updatedMean(QVariant &number);
 };
 #endif //SPREADSHEET_MEAN_H

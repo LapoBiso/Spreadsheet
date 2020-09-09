@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcore.a  CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o CMakeFiles/core.dir/Model.cpp.o CMakeFiles/core.dir/Sum.cpp.o CMakeFiles/core.dir/Result.cpp.o CMakeFiles/core.dir/Window.cpp.o CMakeFiles/core.dir/Mean.cpp.o CMakeFiles/core.dir/ValuesManagement.cpp.o CMakeFiles/core.dir/Max.cpp.o CMakeFiles/core.dir/Min.cpp.o
+/usr/bin/ar qc libcore.a  CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o CMakeFiles/core.dir/Model.cpp.o CMakeFiles/core.dir/Sum.cpp.o CMakeFiles/core.dir/Result.cpp.o CMakeFiles/core.dir/Window.cpp.o CMakeFiles/core.dir/Mean.cpp.o CMakeFiles/core.dir/ValuesManagement.cpp.o CMakeFiles/core.dir/Max.cpp.o CMakeFiles/core.dir/Min.cpp.o CMakeFiles/core.dir/OperationButton.cpp.o
 /usr/bin/ranlib libcore.a

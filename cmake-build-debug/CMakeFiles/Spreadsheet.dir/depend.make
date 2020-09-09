@@ -7,6 +7,7 @@ CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Max.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Mean.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Min.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Model.h
+CMakeFiles/Spreadsheet.dir/main.cpp.o: ../OperationButton.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Result.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Sum.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../ValuesManagement.h

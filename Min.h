@@ -4,21 +4,17 @@
 
 #ifndef SPREADSHEET_MIN_H
 #define SPREADSHEET_MIN_H
-#include <QPushButton>
+#include "OperationButton.h"
 #include <QVariant>
 #include "ValuesManagement.h"
-class Min: public QPushButton{
+class Min: public OperationButton{
 Q_OBJECT
 public:
     explicit Min(ValuesManagement *manager,QWidget* parent=nullptr);
     ~Min(){};
-    double getMin() const;
 public slots:
-    void redoneMin(bool f);
+    void operation(bool f);
 private:
     ValuesManagement* manager;
-    QVariant min;
-signals:
-    void updatedMin(QVariant &number);
 };
 #endif //SPREADSHEET_MIN_H

@@ -797,6 +797,7 @@ test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o: ../test/lib/googletest-master/go
 test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o: ../test/lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
 test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o: ../test/lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
 test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o: ../test/lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o: ../OperationButton.h
 test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o: ../Sum.h
 test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o: ../ValuesManagement.h
 test/CMakeFiles/RunAllTests.dir/SumTests.cpp.o: ../test/SumTests.cpp

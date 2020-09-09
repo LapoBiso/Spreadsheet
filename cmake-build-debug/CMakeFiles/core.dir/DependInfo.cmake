@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Mean.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Min.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Model.cpp.o"
+  "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/OperationButton.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Result.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Sum.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/ValuesManagement.cpp.o"

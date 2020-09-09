@@ -3,27 +3,22 @@
 //
 
 #include "Sum.h"
-#include <utility>
-Sum::Sum(ValuesManagement* manager,QWidget* parent):QPushButton(parent){
+Sum::Sum(ValuesManagement* manager,QWidget* parent):OperationButton(parent){
     this->manager= manager;
     this->setText("SUM");
     this->setGeometry(100,10,50,20);
 }
 
-void Sum::redoneSum(bool f){
+void Sum::operation(bool f){
     if(manager->values.empty())
-        sum="";
+        result="";
     else
     {
-        sum=0.0;
+        result=0.0;
         for(auto iterator:manager->values)
         {
-            sum=sum.toDouble()+iterator.second;
+            result=result.toDouble()+iterator.second;
         }
     }
-    emit updatedSum(sum);
-}
-
-double Sum::getSum() const {
-    return sum.toDouble();
+    emit updatedResult(result);
 }

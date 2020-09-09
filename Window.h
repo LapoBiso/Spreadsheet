@@ -8,6 +8,7 @@
 #include <QTableView>
 #include "Model.h"
 #include "ValuesManagement.h"
+#include "OperationButton.h"
 #include "Sum.h"
 #include "Result.h"
 #include "Mean.h"
@@ -18,13 +19,12 @@ class Window: public QMainWindow{
     Q_OBJECT
 public:
     explicit Window(QWidget* parent= nullptr);
-
 private:
     std::unique_ptr<QTableView>table;
-    std::unique_ptr<Sum>sumButton;
-    std::unique_ptr<Mean>meanButton;
-    std::unique_ptr<Max>maxButton;
-    std::unique_ptr<Min>minButton;
+    std::unique_ptr<OperationButton> sumButton;
+    std::unique_ptr<OperationButton> meanButton;
+    std::unique_ptr<OperationButton> maxButton;
+    std::unique_ptr<OperationButton> minButton;
     std::unique_ptr<Result> string;
 };
 #endif //SPREADSHEET_WINDOW_H

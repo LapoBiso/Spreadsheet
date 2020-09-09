@@ -194,6 +194,19 @@ CMakeFiles/core.dir/Min.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Min.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.cpp -o CMakeFiles/core.dir/Min.cpp.s
 
+CMakeFiles/core.dir/OperationButton.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/OperationButton.cpp.o: ../OperationButton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/core.dir/OperationButton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/OperationButton.cpp.o -c /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp
+
+CMakeFiles/core.dir/OperationButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/OperationButton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp > CMakeFiles/core.dir/OperationButton.cpp.i
+
+CMakeFiles/core.dir/OperationButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/OperationButton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp -o CMakeFiles/core.dir/OperationButton.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o" \
@@ -204,7 +217,8 @@ core_OBJECTS = \
 "CMakeFiles/core.dir/Mean.cpp.o" \
 "CMakeFiles/core.dir/ValuesManagement.cpp.o" \
 "CMakeFiles/core.dir/Max.cpp.o" \
-"CMakeFiles/core.dir/Min.cpp.o"
+"CMakeFiles/core.dir/Min.cpp.o" \
+"CMakeFiles/core.dir/OperationButton.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -218,9 +232,10 @@ libcore.a: CMakeFiles/core.dir/Mean.cpp.o
 libcore.a: CMakeFiles/core.dir/ValuesManagement.cpp.o
 libcore.a: CMakeFiles/core.dir/Max.cpp.o
 libcore.a: CMakeFiles/core.dir/Min.cpp.o
+libcore.a: CMakeFiles/core.dir/OperationButton.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 

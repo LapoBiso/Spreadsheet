@@ -590,6 +590,12 @@
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h">
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp">
 			<Option target="core"/>
 		</Unit>

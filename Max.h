@@ -4,21 +4,17 @@
 
 #ifndef SPREADSHEET_MAX_H
 #define SPREADSHEET_MAX_H
-#include <QPushButton>
 #include <QVariant>
+#include "OperationButton.h"
 #include "ValuesManagement.h"
-class Max: public QPushButton{
+class Max: public OperationButton{
     Q_OBJECT
 public:
     explicit Max(ValuesManagement *manager,QWidget* parent=nullptr);
     ~Max(){};
-    double getMax() const;
 public slots:
-    void redoneMax(bool f);
+    void operation(bool f) override;
 private:
     ValuesManagement* manager;
-    QVariant max;
-    signals:
-    void updatedMax(QVariant &number);
 };
 #endif //SPREADSHEET_MAX_H

@@ -3,27 +3,23 @@
 //
 
 #include "Max.h"
-Max::Max(ValuesManagement *manager,QWidget* parent):QPushButton(parent){
+Max::Max(ValuesManagement *manager,QWidget* parent):OperationButton(parent){
     this->manager=manager;
     this->setText("MAX");
     this->setGeometry(300,10,50,20);
 }
 
-void Max::redoneMax(bool f){
+void Max::operation(bool f) {
     if(manager->values.empty())
-        max="";
+        result="";
     else
     {
-        max=manager->values.begin()->second;
+        result=manager->values.begin()->second;
         for(auto iterator:manager->values)
         {
-            if(iterator.second>max.toDouble())
-                max=iterator.second;
+            if(iterator.second>result.toDouble())
+                result=iterator.second;
         }
     }
-    emit updatedMax(max);
-}
-
-double Max::getMax() const{
-    return max.toDouble();
+    emit updatedResult(result);
 }

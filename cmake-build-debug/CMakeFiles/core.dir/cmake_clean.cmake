@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/Mean.cpp.o"
   "CMakeFiles/core.dir/Min.cpp.o"
   "CMakeFiles/core.dir/Model.cpp.o"
+  "CMakeFiles/core.dir/OperationButton.cpp.o"
   "CMakeFiles/core.dir/Result.cpp.o"
   "CMakeFiles/core.dir/Sum.cpp.o"
   "CMakeFiles/core.dir/ValuesManagement.cpp.o"

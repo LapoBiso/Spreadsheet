@@ -30,6 +30,11 @@
 			"EWIEGA46WW/moc_Model.cpp"
 		],
 		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h",
+			"Mu",
+			"EWIEGA46WW/moc_OperationButton.cpp"
+		],
+		[
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h",
 			"Mu",
 			"EWIEGA46WW/moc_Result.cpp"
@@ -109,6 +114,10 @@
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp", "Mu" ],
+		[
+			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp",
+			"Mu"
+		],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp", "Mu" ],
 		[

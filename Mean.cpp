@@ -3,15 +3,15 @@
 //
 
 #include "Mean.h"
-Mean::Mean(ValuesManagement *manager,QWidget* parent):QPushButton(parent){
+Mean::Mean(ValuesManagement *manager,QWidget* parent):OperationButton(parent){
    this->manager=manager;
     this->setText("MEAN");
     this->setGeometry(200,10,50,20);
 }
 
-void Mean::redoneMean(bool f){
+void Mean::operation(bool f) {
     if(manager->values.empty())
-        mean="";
+        result="";
     else
     {
         double sum=0.0;
@@ -19,11 +19,7 @@ void Mean::redoneMean(bool f){
         {
             sum=sum+iterator.second;
         }
-        mean=sum/manager->values.size();
+        result=sum/manager->values.size();
     }
-    emit updatedMean(mean);
-}
-
-double Mean::getMean() const{
-    return mean.toDouble();
+    emit updatedResult(result);
 }

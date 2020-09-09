@@ -466,6 +466,33 @@ Model.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Model.cpp.s
 .PHONY : Model.cpp.s
 
+OperationButton.o: OperationButton.cpp.o
+
+.PHONY : OperationButton.o
+
+# target to build an object file
+OperationButton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/OperationButton.cpp.o
+.PHONY : OperationButton.cpp.o
+
+OperationButton.i: OperationButton.cpp.i
+
+.PHONY : OperationButton.i
+
+# target to preprocess a source file
+OperationButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/OperationButton.cpp.i
+.PHONY : OperationButton.cpp.i
+
+OperationButton.s: OperationButton.cpp.s
+
+.PHONY : OperationButton.s
+
+# target to generate assembly for a file
+OperationButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/OperationButton.cpp.s
+.PHONY : OperationButton.cpp.s
+
 Result.o: Result.cpp.o
 
 .PHONY : Result.o
@@ -693,6 +720,9 @@ help:
 	@echo "... Model.o"
 	@echo "... Model.i"
 	@echo "... Model.s"
+	@echo "... OperationButton.o"
+	@echo "... OperationButton.i"
+	@echo "... OperationButton.s"
 	@echo "... Result.o"
 	@echo "... Result.i"
 	@echo "... Result.s"

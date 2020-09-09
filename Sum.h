@@ -4,24 +4,17 @@
 
 #ifndef SPREADSHEET_SUM_H
 #define SPREADSHEET_SUM_H
-#include <QPushButton>
 #include <QVariant>
-#include "ValuesManagement.h"
+#include "OperationButton.h"
 
-class Sum: public QPushButton{
+class Sum: public OperationButton{
     Q_OBJECT
-
 public:
     explicit Sum(ValuesManagement* manager,QWidget* parent=nullptr);
     ~Sum(){};
-    double getSum() const;
+public slots:
+    void operation(bool f) override;
 private:
     ValuesManagement* manager;
-    QVariant sum;
-
-public slots:
-    void redoneSum(bool f);
-signals:
-    void updatedSum(QVariant &number);
 };
 #endif //SPREADSHEET_SUM_H
