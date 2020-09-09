@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/OperationButton.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Result.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Sum.cpp.o"
-  "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/ValuesManagement.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/Window.cpp.o"
   "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/mocs_compilation.cpp" "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o"
   )

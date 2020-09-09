@@ -4,11 +4,11 @@
 CMakeFiles/core.dir/Max.cpp.o
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -81,6 +81,7 @@ CMakeFiles/core.dir/Max.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -118,11 +119,11 @@ CMakeFiles/core.dir/Max.cpp.o
 CMakeFiles/core.dir/Mean.cpp.o
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -195,6 +196,7 @@ CMakeFiles/core.dir/Mean.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -232,11 +234,11 @@ CMakeFiles/core.dir/Mean.cpp.o
 CMakeFiles/core.dir/Min.cpp.o
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.h
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -309,6 +311,7 @@ CMakeFiles/core.dir/Min.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -435,12 +438,12 @@ CMakeFiles/core.dir/Model.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 CMakeFiles/core.dir/OperationButton.cpp.o
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -513,6 +516,7 @@ CMakeFiles/core.dir/OperationButton.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -660,13 +664,13 @@ CMakeFiles/core.dir/Result.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/core.dir/Sum.cpp.o
+ /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -739,6 +743,7 @@ CMakeFiles/core.dir/Sum.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -773,60 +778,6 @@ CMakeFiles/core.dir/Sum.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 CMakeFiles/core.dir/Window.cpp.o
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
@@ -835,12 +786,9 @@ CMakeFiles/core.dir/Window.cpp.o
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -983,7 +931,6 @@ CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o
  ../OperationButton.h
  ../Result.h
  ../Sum.h
- ../ValuesManagement.h
  ../Window.h
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Max.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Mean.cpp
@@ -992,12 +939,9 @@ CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_OperationButton.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Result.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Sum.cpp
- /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_ValuesManagement.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Window.cpp
  /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/mocs_compilation.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h

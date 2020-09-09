@@ -10,12 +10,9 @@ CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Model.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../OperationButton.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Result.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Sum.h
-CMakeFiles/Spreadsheet.dir/main.cpp.o: ../ValuesManagement.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../Window.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
-CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/Spreadsheet.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h

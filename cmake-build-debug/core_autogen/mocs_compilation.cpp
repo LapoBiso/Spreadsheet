@@ -6,5 +6,4 @@
 #include "EWIEGA46WW/moc_OperationButton.cpp"
 #include "EWIEGA46WW/moc_Result.cpp"
 #include "EWIEGA46WW/moc_Sum.cpp"
-#include "EWIEGA46WW/moc_ValuesManagement.cpp"
 #include "EWIEGA46WW/moc_Window.cpp"

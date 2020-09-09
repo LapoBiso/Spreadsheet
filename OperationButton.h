@@ -6,19 +6,20 @@
 #define SPREADSHEET_OPERATIONBUTTON_H
 #include <QPushButton>
 #include <QVariant>
-#include "ValuesManagement.h"
+#include "Model.h"
 
 class OperationButton: public QPushButton{
     Q_OBJECT
 public:
-    explicit OperationButton(QWidget* parent=nullptr);
+    explicit OperationButton(Model* model, QWidget* parent=nullptr);
     virtual ~OperationButton(){};
 public slots:
     virtual void operation(bool f)=0;
 signals:
-    virtual void updatedResult(QVariant &number);
+    void updatedResult(QVariant &number);
 protected:
     QVariant result;
+    Model* model;
 public:
     double getResult() const;
 

@@ -608,12 +608,6 @@
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp">
-			<Option target="core"/>
-		</Unit>
-		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h">
-			<Option target="core"/>
-		</Unit>
 		<Unit filename="/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.cpp">
 			<Option target="core"/>
 		</Unit>

@@ -9,7 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/OperationButton.cpp.o"
   "CMakeFiles/core.dir/Result.cpp.o"
   "CMakeFiles/core.dir/Sum.cpp.o"
-  "CMakeFiles/core.dir/ValuesManagement.cpp.o"
   "CMakeFiles/core.dir/Window.cpp.o"
   "CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o"
   "libcore.a"

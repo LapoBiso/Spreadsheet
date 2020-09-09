@@ -11,24 +11,18 @@ QVariant
 -
 OperationButton.h
 ../OperationButton.h
-ValuesManagement.h
-../ValuesManagement.h
 
 ../Mean.h
 OperationButton.h
 ../OperationButton.h
 QVariant
 -
-ValuesManagement.h
-../ValuesManagement.h
 
 ../Min.h
 OperationButton.h
 ../OperationButton.h
 QVariant
 -
-ValuesManagement.h
-../ValuesManagement.h
 
 ../Model.h
 QAbstractTableModel
@@ -43,8 +37,8 @@ QPushButton
 -
 QVariant
 -
-ValuesManagement.h
-../ValuesManagement.h
+Model.h
+../Model.h
 
 ../Result.h
 QLineEdit
@@ -56,14 +50,6 @@ QVariant
 OperationButton.h
 ../OperationButton.h
 
-../ValuesManagement.h
-QObject
--
-QString
--
-map
--
-
 ../Window.h
 QMainWindow
 -
@@ -71,8 +57,6 @@ QTableView
 -
 Model.h
 ../Model.h
-ValuesManagement.h
-../ValuesManagement.h
 OperationButton.h
 ../OperationButton.h
 Sum.h
@@ -95,8 +79,6 @@ QVariant
 -
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp
 Mean.h
@@ -107,8 +89,6 @@ OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 QVariant
 -
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.cpp
 Min.h
@@ -119,8 +99,6 @@ OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 QVariant
 -
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 QAbstractTableModel
@@ -139,8 +117,8 @@ QPushButton
 -
 QVariant
 -
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
+Model.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
 QLineEdit
@@ -156,14 +134,6 @@ QVariant
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
-QObject
--
-QString
--
-map
--
-
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.cpp
 Window.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.h
@@ -175,8 +145,6 @@ QTableView
 -
 Model.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 Sum.h
@@ -246,14 +214,6 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_ValuesManagement.cpp
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/ValuesManagement.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Window.cpp
 Window.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/Window.h
@@ -277,22 +237,12 @@ EWIEGA46WW/moc_Result.cpp
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Result.cpp
 EWIEGA46WW/moc_Sum.cpp
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Sum.cpp
-EWIEGA46WW/moc_ValuesManagement.cpp
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_ValuesManagement.cpp
 EWIEGA46WW/moc_Window.cpp
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Window.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 qabstractitemmodel.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-qobject.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QString
-qstring.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h

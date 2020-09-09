@@ -4,7 +4,9 @@
 
 #include "OperationButton.h"
 
-OperationButton::OperationButton(QWidget* parent):QPushButton(parent){}
+OperationButton::OperationButton(Model* model, QWidget* parent):QPushButton(parent){
+    this->model=model;
+}
 
 double OperationButton::getResult() const {
     return result.toDouble();

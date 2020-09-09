@@ -574,33 +574,6 @@ Sum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Sum.cpp.s
 .PHONY : Sum.cpp.s
 
-ValuesManagement.o: ValuesManagement.cpp.o
-
-.PHONY : ValuesManagement.o
-
-# target to build an object file
-ValuesManagement.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ValuesManagement.cpp.o
-.PHONY : ValuesManagement.cpp.o
-
-ValuesManagement.i: ValuesManagement.cpp.i
-
-.PHONY : ValuesManagement.i
-
-# target to preprocess a source file
-ValuesManagement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ValuesManagement.cpp.i
-.PHONY : ValuesManagement.cpp.i
-
-ValuesManagement.s: ValuesManagement.cpp.s
-
-.PHONY : ValuesManagement.s
-
-# target to generate assembly for a file
-ValuesManagement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ValuesManagement.cpp.s
-.PHONY : ValuesManagement.cpp.s
-
 Window.o: Window.cpp.o
 
 .PHONY : Window.o
@@ -732,9 +705,6 @@ help:
 	@echo "... Sum.o"
 	@echo "... Sum.i"
 	@echo "... Sum.s"
-	@echo "... ValuesManagement.o"
-	@echo "... ValuesManagement.i"
-	@echo "... ValuesManagement.s"
 	@echo "... Window.o"
 	@echo "... Window.i"
 	@echo "... Window.s"

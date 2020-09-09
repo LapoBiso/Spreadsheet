@@ -7,7 +7,6 @@
 #include <QMainWindow>
 #include <QTableView>
 #include "Model.h"
-#include "ValuesManagement.h"
 #include "OperationButton.h"
 #include "Sum.h"
 #include "Result.h"

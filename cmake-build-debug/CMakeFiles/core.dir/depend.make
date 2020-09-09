@@ -3,11 +3,11 @@
 
 CMakeFiles/core.dir/Max.cpp.o: ../Max.cpp
 CMakeFiles/core.dir/Max.cpp.o: ../Max.h
+CMakeFiles/core.dir/Max.cpp.o: ../Model.h
 CMakeFiles/core.dir/Max.cpp.o: ../OperationButton.h
-CMakeFiles/core.dir/Max.cpp.o: ../ValuesManagement.h
-CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -80,6 +80,7 @@ CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -117,11 +118,11 @@ CMakeFiles/core.dir/Max.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidg
 
 CMakeFiles/core.dir/Mean.cpp.o: ../Mean.cpp
 CMakeFiles/core.dir/Mean.cpp.o: ../Mean.h
+CMakeFiles/core.dir/Mean.cpp.o: ../Model.h
 CMakeFiles/core.dir/Mean.cpp.o: ../OperationButton.h
-CMakeFiles/core.dir/Mean.cpp.o: ../ValuesManagement.h
-CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -194,6 +195,7 @@ CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarian
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -231,11 +233,11 @@ CMakeFiles/core.dir/Mean.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwid
 
 CMakeFiles/core.dir/Min.cpp.o: ../Min.cpp
 CMakeFiles/core.dir/Min.cpp.o: ../Min.h
+CMakeFiles/core.dir/Min.cpp.o: ../Model.h
 CMakeFiles/core.dir/Min.cpp.o: ../OperationButton.h
-CMakeFiles/core.dir/Min.cpp.o: ../ValuesManagement.h
-CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -308,6 +310,7 @@ CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/Min.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -434,12 +437,12 @@ CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransf
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/core.dir/Model.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 
+CMakeFiles/core.dir/OperationButton.cpp.o: ../Model.h
 CMakeFiles/core.dir/OperationButton.cpp.o: ../OperationButton.cpp
 CMakeFiles/core.dir/OperationButton.cpp.o: ../OperationButton.h
-CMakeFiles/core.dir/OperationButton.cpp.o: ../ValuesManagement.h
-CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -512,6 +515,7 @@ CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtC
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/OperationButton.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -659,13 +663,13 @@ CMakeFiles/core.dir/Result.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qt
 CMakeFiles/core.dir/Result.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/core.dir/Result.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
+CMakeFiles/core.dir/Sum.cpp.o: ../Model.h
 CMakeFiles/core.dir/Sum.cpp.o: ../OperationButton.h
 CMakeFiles/core.dir/Sum.cpp.o: ../Sum.cpp
 CMakeFiles/core.dir/Sum.cpp.o: ../Sum.h
-CMakeFiles/core.dir/Sum.cpp.o: ../ValuesManagement.h
-CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -738,6 +742,7 @@ CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -773,60 +778,6 @@ CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwid
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/core.dir/Sum.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
-CMakeFiles/core.dir/ValuesManagement.cpp.o: ../ValuesManagement.cpp
-CMakeFiles/core.dir/ValuesManagement.cpp.o: ../ValuesManagement.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
-CMakeFiles/core.dir/ValuesManagement.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
-
 CMakeFiles/core.dir/Window.cpp.o: ../Max.h
 CMakeFiles/core.dir/Window.cpp.o: ../Mean.h
 CMakeFiles/core.dir/Window.cpp.o: ../Min.h
@@ -834,12 +785,9 @@ CMakeFiles/core.dir/Window.cpp.o: ../Model.h
 CMakeFiles/core.dir/Window.cpp.o: ../OperationButton.h
 CMakeFiles/core.dir/Window.cpp.o: ../Result.h
 CMakeFiles/core.dir/Window.cpp.o: ../Sum.h
-CMakeFiles/core.dir/Window.cpp.o: ../ValuesManagement.h
 CMakeFiles/core.dir/Window.cpp.o: ../Window.cpp
 CMakeFiles/core.dir/Window.cpp.o: ../Window.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
-CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -982,7 +930,6 @@ CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Model.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../OperationButton.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Result.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Sum.h
-CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../ValuesManagement.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Window.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW/moc_Max.cpp
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW/moc_Mean.cpp
@@ -991,12 +938,9 @@ CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW/moc_OperationButton.cpp
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW/moc_Result.cpp
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW/moc_Sum.cpp
-CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW/moc_ValuesManagement.cpp
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW/moc_Window.cpp
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/mocs_compilation.cpp
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
-CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h

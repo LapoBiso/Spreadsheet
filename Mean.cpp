@@ -3,23 +3,22 @@
 //
 
 #include "Mean.h"
-Mean::Mean(ValuesManagement *manager,QWidget* parent):OperationButton(parent){
-   this->manager=manager;
+Mean::Mean(Model* model,QWidget* parent):OperationButton(model, parent){
     this->setText("MEAN");
     this->setGeometry(200,10,50,20);
 }
 
 void Mean::operation(bool f) {
-    if(manager->values.empty())
+    if(model->cellContent.empty())
         result="";
     else
     {
         double sum=0.0;
-        for(auto iterator:manager->values)
+        for(const auto& iterator:model->cellContent)
         {
-            sum=sum+iterator.second;
+            sum=sum+iterator.second.toDouble();
         }
-        result=sum/manager->values.size();
+        result=sum/model->cellContent.size();
     }
     emit updatedResult(result);
 }

@@ -11,24 +11,18 @@ QVariant
 -
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 QVariant
 -
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.h
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 QVariant
 -
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 QAbstractTableModel
@@ -43,8 +37,8 @@ QPushButton
 -
 QVariant
 -
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
+Model.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
 QLineEdit
@@ -56,14 +50,6 @@ QVariant
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
-QObject
--
-QString
--
-map
--
-
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.h
 QMainWindow
 -
@@ -71,8 +57,6 @@ QTableView
 -
 Model.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
-ValuesManagement.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 Sum.h
@@ -97,14 +81,6 @@ Window.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTableModel
 qabstractitemmodel.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
-qobject.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QString
-qstring.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h

@@ -4,19 +4,19 @@
 
 #include "Min.h"
 
-Min::Min(ValuesManagement *manager,QWidget* parent):OperationButton(parent){
-    this->manager=manager;
+Min::Min(Model* model,QWidget* parent):OperationButton(model,parent){
+    this->model=model;
     this->setText("MIN");
     this->setGeometry(400,10,50,20);
 }
 
 void Min::operation(bool f){
-    if(manager->values.empty())
+    if(model->cellContent.empty())
         result="";
     else
     {
-        result=manager->values.begin()->second;
-        for(auto iterator:manager->values)
+        result=model->cellContent.begin()->second;
+        for(const auto& iterator:model->cellContent)
         {
             if(iterator.second<result.toDouble())
                 result=iterator.second;

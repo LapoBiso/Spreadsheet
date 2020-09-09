@@ -45,11 +45,6 @@
 			"EWIEGA46WW/moc_Sum.cpp"
 		],
 		[
-			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h",
-			"Mu",
-			"EWIEGA46WW/moc_ValuesManagement.cpp"
-		],
-		[
 			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.h",
 			"Mu",
 			"EWIEGA46WW/moc_Window.cpp"
@@ -120,10 +115,6 @@
 		],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.cpp", "Mu" ],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp", "Mu" ],
-		[
-			"/home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.cpp",
-			"Mu"
-		],
 		[ "/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Window.cpp", "Mu" ]
 	],
 	"VERBOSITY" : 0
