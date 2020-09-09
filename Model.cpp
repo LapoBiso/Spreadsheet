@@ -3,8 +3,10 @@
 //
 
 #include "Model.h"
-
-Model::Model(QObject* parent):QAbstractTableModel(parent){}
+#include "OperationButton.h"
+Model::Model(QObject* parent):QAbstractTableModel(parent){
+    button=nullptr;
+}
 
 int Model::rowCount(const QModelIndex &parent) const{
     return rows;
@@ -41,8 +43,11 @@ bool Model::setData(const QModelIndex &index, const QVariant &value, int role){
         {
             auto itr=cellContent.find(index.row()+index.column()*columns);
             if(itr!=cellContent.end())
+            {
                 cellContent.erase(itr);
-            emit valueInserted(0,value.toString(),index.row(),index.column());
+            }
+            if(button!=nullptr)
+                button->operation(true);
             return true;
         }
 
@@ -53,7 +58,8 @@ bool Model::setData(const QModelIndex &index, const QVariant &value, int role){
                 itr->second=value.toDouble();
             else
                 cellContent.insert(std::pair<int,QVariant>(index.row()+index.column()*columns,value.toDouble()));
-            emit valueInserted(cellContent[index.row()+index.column()*columns].toDouble(),value.toString(),index.row(),index.column());
+            if(button!= nullptr)
+                button->operation(true);
             return true;
         }
     }
@@ -92,4 +98,8 @@ QVariant Model::headerData(int section, Qt::Orientation orientation, int role) c
         return QString(QString::number(numbers[section]));
     } else
         return QVariant();
+}
+
+void Model::setButton(OperationButton* b) {
+    this->button=b;
 }

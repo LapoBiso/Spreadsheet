@@ -15,14 +15,31 @@ Window::Window(QWidget *parent):QMainWindow(parent){
     this->setWindowTitle("Spreadsheet");
     this->setFixedSize(1200,600);
     table->setGeometry(100,50,1025,326);
+
+    //Table
     QObject::connect(table.get(),&QTableView::doubleClicked,model,&Model::cleanCell);
+
+    //Sum
+    QObject::connect(sumButton.get(),&OperationButton::clicked,model,[=](){model->setButton(sumButton.get());});
     QObject::connect(sumButton.get(),&OperationButton::clicked,sumButton.get(),&OperationButton::operation);
     QObject::connect(sumButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
+
+    //Mean
+    QObject::connect(meanButton.get(),&OperationButton::clicked,model,[=](){model->setButton(meanButton.get());});
     QObject::connect(meanButton.get(),&OperationButton::clicked,meanButton.get(),&OperationButton::operation);
     QObject::connect(meanButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
+
+    //Max
+    QObject::connect(maxButton.get(),&OperationButton::clicked,model,[=](){model->setButton(maxButton.get());});
     QObject::connect(maxButton.get(),&OperationButton::clicked,maxButton.get(),&OperationButton::operation);
     QObject::connect(maxButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
+
+    //Min
+    QObject::connect(minButton.get(),&OperationButton::clicked,model,[=](){model->setButton(minButton.get());});
     QObject::connect(minButton.get(),&OperationButton::clicked,minButton.get(),&OperationButton::operation);
     QObject::connect(minButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
 }
 
+void Window::editTitle(bool f) {
+    this->setWindowTitle("ciaoooo");
+}

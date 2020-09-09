@@ -7,6 +7,7 @@
 #include <QAbstractTableModel>
 #include <memory>
 #include <QBrush>
+class OperationButton;
 class Model: public QAbstractTableModel{
     Q_OBJECT
 private:
@@ -23,11 +24,13 @@ public:
     Qt::ItemFlags flags(const QModelIndex &index) const override;
     QVariant headerData(int section, Qt::Orientation orientation, int role) const override;
     std::map <int,QVariant> cellContent;
+    void setButton(OperationButton* b);
+    OperationButton* button;
 
 public slots:
     void cleanCell(const QModelIndex &index);
 
     signals:
-    void valueInserted(const double & number,const QString &string, const int &row, const int &column);
+    void valueChanged(bool f);
 };
 #endif //SPREADSHEET_MODEL_H
