@@ -20,11 +20,11 @@ public:
     explicit Window(QWidget* parent= nullptr);
 
 private:
-    QTableView* table;
-    Sum* sumButton;
-    Mean* meanButton;
-    Max* maxButton;
-    Min* minButton;
-    Result* string;
+    std::unique_ptr<QTableView>table;
+    std::unique_ptr<Sum>sumButton;
+    std::unique_ptr<Mean>meanButton;
+    std::unique_ptr<Max>maxButton;
+    std::unique_ptr<Min>minButton;
+    std::unique_ptr<Result> string;
 };
 #endif //SPREADSHEET_WINDOW_H
