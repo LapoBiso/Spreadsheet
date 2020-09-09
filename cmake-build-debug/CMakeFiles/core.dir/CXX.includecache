@@ -86,6 +86,10 @@ Max.h
 Min.h
 ../Min.h
 
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.cpp
+Max.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
+
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
 QVariant
 -
@@ -93,6 +97,10 @@ OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 ValuesManagement.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/ValuesManagement.h
+
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp
+Mean.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
 OperationButton.h
@@ -122,6 +130,10 @@ memory
 QBrush
 -
 
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp
+OperationButton.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
+
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 QPushButton
 -
@@ -133,6 +145,10 @@ ValuesManagement.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
 QLineEdit
 -
+
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp
+Sum.h
+/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h
 QVariant

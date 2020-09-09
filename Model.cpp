@@ -15,17 +15,17 @@ int Model::columnCount(const QModelIndex &parent) const{
 }
 
 QVariant Model::data(const QModelIndex &index, int role) const{
-    auto itr=strings.find(index.row()+index.column()*columns);
+    auto itr=cellContent.find(index.row()+index.column()*columns);
     if(role==Qt::DisplayRole && checkIndex(index))
     {
-        if(itr!=strings.end())
+        if(itr!=cellContent.end())
             return itr->second.toDouble();
         else
             return QVariant("");
     }
     if(role==Qt::BackgroundRole && checkIndex(index))
     {
-        if(itr!=strings.end())
+        if(itr!=cellContent.end())
             return QBrush(Qt::darkGray);
         else
             return QBrush(Qt::transparent);
@@ -39,22 +39,20 @@ bool Model::setData(const QModelIndex &index, const QVariant &value, int role){
     {
         if(value.toString()=="")
         {
-            auto itr=strings.find(index.row()+index.column()*columns);
-            if(itr!=strings.end())
-                strings.erase(itr);
-            cellContent[index.row()+index.column()*columns].toString()= nullptr;
-            emit valueInserted(cellContent[index.row()+index.column()*columns].toDouble(),value.toString(),index.row(),index.column());
+            auto itr=cellContent.find(index.row()+index.column()*columns);
+            if(itr!=cellContent.end())
+                cellContent.erase(itr);
+            emit valueInserted(0,value.toString(),index.row(),index.column());
             return true;
         }
 
         else
         {
-            auto itr=strings.find(index.row()+index.column()*columns);
-            if(itr!=strings.end())
+            auto itr=cellContent.find(index.row()+index.column()*columns);
+            if(itr!=cellContent.end())
                 itr->second=value.toDouble();
             else
-                strings.insert(std::pair<int,QVariant>(index.row()+index.column()*columns,value.toDouble()));
-            cellContent[index.row()+index.column()*columns]=value;
+                cellContent.insert(std::pair<int,QVariant>(index.row()+index.column()*columns,value.toDouble()));
             emit valueInserted(cellContent[index.row()+index.column()*columns].toDouble(),value.toString(),index.row(),index.column());
             return true;
         }
@@ -67,9 +65,9 @@ Qt::ItemFlags Model::flags(const QModelIndex &index) const{
 }
 
 void Model::cleanCell(const QModelIndex &index){
-    auto itr=strings.find(index.row()+index.column()*columns);
-    if(itr!=strings.end())
-        strings.erase(itr);
+    auto itr=cellContent.find(index.row()+index.column()*columns);
+    if(itr!=cellContent.end())
+        cellContent.erase(itr);
 }
 
 QVariant Model::headerData(int section, Qt::Orientation orientation, int role) const{
