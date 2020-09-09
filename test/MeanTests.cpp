@@ -4,7 +4,7 @@
 #include "gtest/gtest.h"
 #include "../Mean.h"
 
-TEST(Mean,Updating){
+/*TEST(Mean,Updating){
     auto *manager=new ValuesManagement;
     Mean button(manager);
     manager->valuesUpdating(10,"test",0,0);
@@ -13,5 +13,5 @@ TEST(Mean,Updating){
     manager->valuesUpdating(11,"test",1,0);
     button.redoneMean(true);
     ASSERT_EQ(10,button.getMean());
-}
+}*/
 

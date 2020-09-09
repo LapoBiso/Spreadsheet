@@ -13,6 +13,7 @@ class OperationButton: public QPushButton{
 public:
     explicit OperationButton(Model* model, QWidget* parent=nullptr);
     virtual ~OperationButton(){};
+    virtual void resetText()=0;
 public slots:
     virtual void operation(bool f)=0;
 signals:

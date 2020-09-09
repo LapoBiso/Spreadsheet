@@ -7,7 +7,7 @@
 Min::Min(Model* model,QWidget* parent):OperationButton(model,parent){
     this->model=model;
     this->setText("MIN");
-    this->setGeometry(400,10,50,20);
+    this->setGeometry(460,10,100,20);
 }
 
 void Min::operation(bool f){
@@ -23,4 +23,8 @@ void Min::operation(bool f){
         }
     }
     emit updatedResult(result);
+}
+
+void Min::resetText(){
+    this->setText("MIN");
 }

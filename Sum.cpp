@@ -6,7 +6,7 @@
 Sum::Sum(Model* model,QWidget* parent):OperationButton(model,parent){
     this->model= model;
     this->setText("SUM");
-    this->setGeometry(100,10,50,20);
+    this->setGeometry(100,10,100,20);
 }
 
 void Sum::operation(bool f){
@@ -21,4 +21,8 @@ void Sum::operation(bool f){
         }
     }
     emit updatedResult(result);
+}
+
+void Sum::resetText(){
+    this->setText("SUM");
 }

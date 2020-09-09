@@ -4,7 +4,7 @@
 #include "gtest/gtest.h"
 #include "../Max.h"
 
-TEST(Max,Updating){
+/*TEST(Max,Updating){
     auto *manager=new ValuesManagement;
     Max button(manager);
     manager->valuesUpdating(13.4,"test",0,0);
@@ -13,4 +13,4 @@ TEST(Max,Updating){
     manager->valuesUpdating(110,"test",7,7);
     button.redoneMax(true);
     ASSERT_EQ(110,button.getMax());
-}
+}*/

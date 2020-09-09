@@ -24,6 +24,8 @@ public:
     Qt::ItemFlags flags(const QModelIndex &index) const override;
     QVariant headerData(int section, Qt::Orientation orientation, int role) const override;
     std::map <int,QVariant> cellContent;
+    void setCellContent(int position, const QVariant& value);
+
     void setButton(OperationButton* b);
     OperationButton* button;
 

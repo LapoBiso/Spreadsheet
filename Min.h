@@ -11,6 +11,7 @@ Q_OBJECT
 public:
     explicit Min(Model* model ,QWidget* parent=nullptr);
     ~Min(){};
+    void resetText() override;
 public slots:
     void operation(bool f);
 };

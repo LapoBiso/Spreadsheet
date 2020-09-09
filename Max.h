@@ -11,6 +11,7 @@ class Max: public OperationButton{
 public:
     explicit Max(Model* model,QWidget* parent=nullptr);
     ~Max(){};
+    void resetText() override;
 public slots:
     void operation(bool f) override;
 

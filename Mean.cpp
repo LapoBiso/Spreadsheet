@@ -5,7 +5,7 @@
 #include "Mean.h"
 Mean::Mean(Model* model,QWidget* parent):OperationButton(model, parent){
     this->setText("MEAN");
-    this->setGeometry(200,10,50,20);
+    this->setGeometry(220,10,100,20);
 }
 
 void Mean::operation(bool f) {
@@ -21,4 +21,8 @@ void Mean::operation(bool f) {
         result=sum/model->cellContent.size();
     }
     emit updatedResult(result);
+}
+
+void Mean::resetText(){
+    this->setText("MEAN");
 }

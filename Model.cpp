@@ -50,7 +50,6 @@ bool Model::setData(const QModelIndex &index, const QVariant &value, int role){
                 button->operation(true);
             return true;
         }
-
         else
         {
             auto itr=cellContent.find(index.row()+index.column()*columns);
@@ -101,5 +100,24 @@ QVariant Model::headerData(int section, Qt::Orientation orientation, int role) c
 }
 
 void Model::setButton(OperationButton* b) {
+    if(button!=nullptr)
+        button->resetText();
     this->button=b;
+    button->setText(button->text()+" PRESSED");
+}
+
+void Model::setCellContent(int position, const QVariant& value) {
+    auto itr=cellContent.find(position);
+    if(value.toString()=="")
+    {
+        if (itr!=cellContent.end())
+            cellContent.erase(itr);
+    }
+    else
+    {
+        if (itr!=cellContent.end())
+            itr->second=value.toDouble();
+        else
+            cellContent.insert(std::pair<int,QVariant>(position,value.toDouble()));
+    }
 }

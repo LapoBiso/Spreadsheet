@@ -6,7 +6,7 @@
 Max::Max(Model* model,QWidget* parent):OperationButton(model, parent){
     this->model=model;
     this->setText("MAX");
-    this->setGeometry(300,10,50,20);
+    this->setGeometry(340,10,100,20);
 }
 
 void Max::operation(bool f) {
@@ -22,4 +22,8 @@ void Max::operation(bool f) {
         }
     }
     emit updatedResult(result);
+}
+
+void Max::resetText() {
+    this->setText("MAX");
 }

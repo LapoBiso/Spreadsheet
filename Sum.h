@@ -11,6 +11,7 @@ class Sum: public OperationButton{
 public:
     explicit Sum(Model* model,QWidget* parent=nullptr);
     ~Sum(){};
+    void resetText() override;
 public slots:
     void operation(bool f) override;
 };
