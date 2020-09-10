@@ -19,3 +19,10 @@ TEST(Mean,Operation){
     ASSERT_EQ(18.3,mean->getResult());
 }
 
+TEST(Mean,resetText){
+    Model model;
+    std::unique_ptr <OperationButton> mean (new Mean(&model));
+    mean->setText("");
+    mean->resetText();
+    ASSERT_EQ("MEAN",mean->text());
+}

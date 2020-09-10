@@ -21,3 +21,11 @@ TEST(Min,Operation){
     ASSERT_EQ(-1112,min->getResult());
 }
 
+TEST(Min,resetText){
+    Model model;
+    std::unique_ptr <OperationButton> min (new Min(&model));
+    min->setText("VERIFYING BUG");
+    min->resetText();
+    ASSERT_EQ("MIN",min->text());
+}
+

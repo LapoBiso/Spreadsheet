@@ -18,3 +18,11 @@ TEST(Sum,Operation){
     sum->operation(true);
     ASSERT_EQ(-6,sum->getResult());
 }
+
+TEST(Sum,resetText){
+    Model model;
+    std::unique_ptr <OperationButton> sum (new Sum(&model));
+    sum->setText("TESTING.....");
+    sum->resetText();
+    ASSERT_EQ("SUM",sum->text());
+}

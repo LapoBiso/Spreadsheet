@@ -18,3 +18,11 @@ TEST(Max,Operation){
     max->operation(true);
     ASSERT_EQ(91,max->getResult());
 }
+
+TEST(Max,resetText){
+    Model model;
+    std::unique_ptr <OperationButton> max (new Max(&model));
+    max->setText("TESTING_METHOD");
+    max->resetText();
+    ASSERT_EQ("MAX",max->text());
+}
