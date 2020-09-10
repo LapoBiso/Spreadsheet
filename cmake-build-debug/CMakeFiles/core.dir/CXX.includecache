@@ -70,19 +70,11 @@ Max.h
 Min.h
 ../Min.h
 
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.cpp
-Max.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
-
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Max.h
 QVariant
 -
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
-
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.cpp
-Mean.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Mean.h
 OperationButton.h
@@ -90,21 +82,11 @@ OperationButton.h
 QVariant
 -
 
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.cpp
-Min.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.h
-
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Min.h
 OperationButton.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 QVariant
 -
-
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.cpp
-Model.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
-OperationButton.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Model.h
 QAbstractTableModel
@@ -113,10 +95,6 @@ memory
 -
 QBrush
 -
-
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.cpp
-OperationButton.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/OperationButton.h
 QPushButton
@@ -129,10 +107,6 @@ Model.h
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Result.h
 QLineEdit
 -
-
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.cpp
-Sum.h
-/home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h
 
 /home/lapo/Scrivania/ProgettiClion/Spreadsheet/Sum.h
 QVariant

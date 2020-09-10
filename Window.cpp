@@ -39,7 +39,3 @@ Window::Window(QWidget *parent):QMainWindow(parent){
     QObject::connect(minButton.get(),&OperationButton::clicked,minButton.get(),&OperationButton::operation);
     QObject::connect(minButton.get(),&OperationButton::updatedResult,string.get(),&Result::setNumber);
 }
-
-void Window::editTitle(bool f) {
-    this->setWindowTitle("ciaoooo");
-}
