@@ -2,16 +2,20 @@
 // Created by lapo on 02/09/20.
 //
 #include "gtest/gtest.h"
+#include "../OperationButton.h"
 #include "../Mean.h"
+#include <QVariant>
 
-/*TEST(Mean,Updating){
-    auto *manager=new ValuesManagement;
-    Mean button(manager);
-    manager->valuesUpdating(10,"test",0,0);
-    manager->valuesUpdating(12,"test",1,7);
-    manager->valuesUpdating(7,"test",0,6);
-    manager->valuesUpdating(11,"test",1,0);
-    button.redoneMean(true);
-    ASSERT_EQ(10,button.getMean());
-}*/
+TEST(Mean,Operation){
+    Model model;
+    std::unique_ptr <OperationButton> mean (new Mean(&model));
+    model.setButton(mean.get());
+    model.setCellContent(1,10);
+    model.setCellContent(99,72);
+    model.setCellContent(99,-10);
+    model.setCellContent(27,46.6);
+    model.setCellContent(1,"");
+    mean->operation(true);
+    ASSERT_EQ(18.3,mean->getResult());
+}
 

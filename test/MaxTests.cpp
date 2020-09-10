@@ -2,15 +2,19 @@
 // Created by lapo on 02/09/20.
 //
 #include "gtest/gtest.h"
+#include "../OperationButton.h"
 #include "../Max.h"
+#include <QVariant>
 
-/*TEST(Max,Updating){
-    auto *manager=new ValuesManagement;
-    Max button(manager);
-    manager->valuesUpdating(13.4,"test",0,0);
-    manager->valuesUpdating(89,"test",8,9);
-    manager->valuesUpdating(22,"test",1,9);
-    manager->valuesUpdating(110,"test",7,7);
-    button.redoneMax(true);
-    ASSERT_EQ(110,button.getMax());
-}*/
+TEST(Max,Operation){
+    Model model;
+    std::unique_ptr <OperationButton> max (new Max(&model));
+    model.setButton(max.get());
+    model.setCellContent(17,0);
+    model.setCellContent(45,89);
+    model.setCellContent(17,"");
+    model.setCellContent(84,-100);
+    model.setCellContent(45,91);
+    max->operation(true);
+    ASSERT_EQ(91,max->getResult());
+}

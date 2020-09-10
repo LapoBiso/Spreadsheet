@@ -6,13 +6,15 @@
 #include "../Sum.h"
 #include <QVariant>
 
-TEST(Sum,Updating){
+TEST(Sum,Operation){
     Model model;
     std::unique_ptr <OperationButton> sum (new Sum(&model));
     model.setButton(sum.get());
     model.setCellContent(0,122);
     model.setCellContent(7,8.9);
     model.setCellContent(87,-7);
+    model.setCellContent(0,"");
+    model.setCellContent(7,1);
     sum->operation(true);
-    ASSERT_EQ(123.9,sum->getResult());
+    ASSERT_EQ(-6,sum->getResult());
 }
