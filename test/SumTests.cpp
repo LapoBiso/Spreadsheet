@@ -11,8 +11,12 @@ TEST(Sum,Operation){
     std::unique_ptr <OperationButton> sum (new Sum(&model));
     model.setButton(sum.get());
     model.setCellContent(0,122);
+    sum->operation(true);
+    ASSERT_EQ(122,sum->getResult());
     model.setCellContent(7,8.9);
     model.setCellContent(87,-7);
+    sum->operation(true);
+    ASSERT_EQ(123.9,sum->getResult());
     model.setCellContent(0,"");
     model.setCellContent(7,1);
     sum->operation(true);

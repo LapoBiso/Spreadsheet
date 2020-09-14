@@ -10,7 +10,7 @@ class Sum: public OperationButton{
     Q_OBJECT
 public:
     explicit Sum(Model* model,QWidget* parent=nullptr);
-    ~Sum(){};
+    ~Sum()=default;
     void resetText() override;
 public slots:
     void operation(bool f) override;

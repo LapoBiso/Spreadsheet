@@ -12,8 +12,12 @@ TEST(Max,Operation){
     model.setButton(max.get());
     model.setCellContent(17,0);
     model.setCellContent(45,89);
+    max->operation(true);
+    ASSERT_EQ(89,max->getResult());
     model.setCellContent(17,"");
     model.setCellContent(84,-100);
+    max->operation(true);
+    ASSERT_EQ(89,max->getResult());
     model.setCellContent(45,91);
     max->operation(true);
     ASSERT_EQ(91,max->getResult());

@@ -18,6 +18,7 @@ class Window: public QMainWindow{
     Q_OBJECT
 public:
     explicit Window(QWidget* parent= nullptr);
+    ~Window()=default;
 private:
     std::unique_ptr<QTableView>table;
     std::unique_ptr<OperationButton> sumButton;

@@ -10,7 +10,7 @@ class Mean: public OperationButton{
     Q_OBJECT
 public:
     explicit Mean(Model* model,QWidget* parent=nullptr);
-    ~Mean(){};
+    ~Mean()=default;
     void resetText() override;
 public slots:
     void operation(bool f) override;

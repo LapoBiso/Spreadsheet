@@ -12,8 +12,9 @@ class OperationButton: public QPushButton{
     Q_OBJECT
 public:
     explicit OperationButton(Model* model, QWidget* parent=nullptr);
-    virtual ~OperationButton(){};
+    virtual ~OperationButton()=default;
     virtual void resetText()=0;
+    double getResult() const;
 public slots:
     virtual void operation(bool f)=0;
 signals:
@@ -21,8 +22,7 @@ signals:
 protected:
     QVariant result;
     Model* model;
-public:
-    double getResult() const;
+
 
 };
 #endif //SPREADSHEET_OPERATIONBUTTON_H

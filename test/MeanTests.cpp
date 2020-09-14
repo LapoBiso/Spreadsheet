@@ -11,8 +11,12 @@ TEST(Mean,Operation){
     std::unique_ptr <OperationButton> mean (new Mean(&model));
     model.setButton(mean.get());
     model.setCellContent(1,10);
+    mean->operation(true);
+    ASSERT_EQ(10,mean->getResult());
     model.setCellContent(99,72);
     model.setCellContent(99,-10);
+    mean->operation(true);
+    ASSERT_EQ(0,mean->getResult());
     model.setCellContent(27,46.6);
     model.setCellContent(1,"");
     mean->operation(true);

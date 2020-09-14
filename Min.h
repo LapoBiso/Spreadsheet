@@ -10,7 +10,7 @@ class Min: public OperationButton{
 Q_OBJECT
 public:
     explicit Min(Model* model ,QWidget* parent=nullptr);
-    ~Min(){};
+    ~Min()=default;
     void resetText() override;
 public slots:
     void operation(bool f);

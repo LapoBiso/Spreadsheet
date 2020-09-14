@@ -9,7 +9,7 @@ class Result: public QLineEdit{
     Q_OBJECT
 public:
     Result(QWidget* parent=nullptr);
-    ~Result(){};
+    ~Result()=default;
 
 public slots:
     void setNumber(QVariant &number);

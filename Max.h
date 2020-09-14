@@ -10,7 +10,7 @@ class Max: public OperationButton{
     Q_OBJECT
 public:
     explicit Max(Model* model,QWidget* parent=nullptr);
-    ~Max(){};
+    ~Max()=default;
     void resetText() override;
 public slots:
     void operation(bool f) override;
